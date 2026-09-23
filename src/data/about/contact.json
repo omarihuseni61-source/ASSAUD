@@ -1,0 +1,75 @@
+{
+  "primary": {
+    "email": "asaud@udsm.ac.tz",
+    "phone": "+255-22-2410138",
+    "office": {
+      "building": "Mathematics Department Building",
+      "room": "Room 312",
+      "campus": "University of Dar es Salaam, Main Campus",
+      "address": "P.O. Box 35062, Dar es Salaam, Tanzania"
+    }
+  },
+  "social": [
+    {
+      "platform": "Facebook",
+      "handle": "@ASAUD-UDSM",
+      "url": "https://facebook.com/asaud.udsm",
+      "icon": "facebook"
+    },
+    {
+      "platform": "Twitter",
+      "handle": "@ASAUD_UDSM",
+      "url": "https://twitter.com/asaud_udsm",
+      "icon": "twitter"
+    },
+    {
+      "platform": "LinkedIn",
+      "handle": "ASAUD-UDSM",
+      "url": "https://linkedin.com/company/asaud-udsm",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Instagram",
+      "handle": "@asaud_udsm",
+      "url": "https://instagram.com/asaud_udsm",
+      "icon": "instagram"
+    }
+  ],
+  "departmentContacts": [
+    {
+      "department": "Executive Office",
+      "description": "General enquiries and leadership",
+      "email": "president@asaud.udsm.ac.tz",
+      "personInCharge": "President"
+    },
+    {
+      "department": "Academics",
+      "description": "Study materials and academic support",
+      "email": "academics@asaud.udsm.ac.tz",
+      "personInCharge": "Academic Director"
+    },
+    {
+      "department": "Events & Activities",
+      "description": "Event registration and proposals",
+      "email": "events@asaud.udsm.ac.tz",
+      "personInCharge": "Events Director"
+    },
+    {
+      "department": "Partnerships",
+      "description": "Corporate and institutional partnerships",
+      "email": "partnerships@asaud.udsm.ac.tz",
+      "personInCharge": "Partnerships Director"
+    },
+    {
+      "department": "Membership",
+      "description": "Membership registration and enquiries",
+      "email": "membership@asaud.udsm.ac.tz",
+      "personInCharge": "Membership Director"
+    }
+  ],
+  "officeHours": {
+    "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
+    "weekends": "Saturday: 10:00 AM - 2:00 PM (by appointment)",
+    "note": "Office is closed during public holidays and university breaks."
+  }
+}

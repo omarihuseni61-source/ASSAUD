@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "id": "news-001",
+      "title": "New Study Materials Released for All Courses",
+      "type": "announcement",
+      "date": "2026-09-20",
+      "description": "Complete lecture slides, tutorials, and past papers now available for all courses.",
+      "fullContent": "We are excited to announce that all study materials for the 2026-2027 academic year have been released and are now available in the Academics section. This includes lecture slides for all courses, practice tutorials, past examination papers, and quiz materials. Students can access all materials organized by course, level, and type. We encourage all students to review materials regularly and utilize them for effective exam preparation.",
+      "image": "/images/news/study-materials-2026.jpg",
+      "category": "Academic",
+      "link": "/academics/study-materials",
+      "featured": true
+    },
+    {
+      "id": "news-002",
+      "title": "Career Mentorship Program Now Open for Applications",
+      "type": "mentorship",
+      "date": "2026-09-18",
+      "description": "Apply now to be matched with industry professionals for career guidance and mentoring.",
+      "fullContent": "ASAUD is launching an exciting new mentorship program connecting students with experienced actuaries and insurance professionals. Mentors will provide guidance on career development, exam preparation, and professional growth. The program is open to all actuarial science students. Application deadline is September 30, 2026.",
+      "image": "/images/news/mentorship-program.jpg",
+      "category": "Career",
+      "deadline": "2026-09-30",
+      "link": "/news-events/news/news-002",
+      "featured": true
+    },
+    {
+      "id": "news-003",
+      "title": "Scholarship Opportunity: East African Insurance Fund",
+      "type": "scholarship",
+      "date": "2026-09-15",
+      "description": "Up to 10 scholarships available for outstanding actuarial science students.",
+      "fullContent": "East African Insurance Company is offering 10 merit-based scholarships worth $2,000 each for deserving actuarial science students. Criteria include academic excellence, community involvement, and financial need. Interested students should submit applications by October 15, 2026.",
+      "image": "/images/news/scholarship-2026.jpg",
+      "category": "Opportunity",
+      "deadline": "2026-10-15",
+      "link": "/news-events/news/news-003",
+      "featured": true
+    },
+    {
+      "id": "news-004",
+      "title": "Summer Internship Positions at Sanlam Life Insurance",
+      "type": "internship",
+      "date": "2026-09-12",
+      "description": "Paid summer internship opportunities for 2nd and 3rd year students.",
+      "fullContent": "Sanlam Life Insurance is offering paid summer internships for actuarial science students. Interns will work on real actuarial projects, receive mentorship from senior actuaries, and gain valuable industry experience. Applications close October 20, 2026.",
+      "image": "/images/news/sanlam-internship.jpg",
+      "category": "Opportunity",
+      "deadline": "2026-10-20",
+      "link": "/news-events/news/news-004",
+      "featured": false
+    },
+    {
+      "id": "news-005",
+      "title": "ASAUD Team Wins East Africa Actuarial Competition",
+      "type": "achievement",
+      "date": "2026-09-10",
+      "description": "ASAUD student team takes first place in regional modeling competition.",
+      "fullContent": "Congratulations to the ASAUD team for winning first place in the East Africa Actuarial Modeling Competition held in Nairobi, Kenya. The team demonstrated exceptional analytical skills and innovative problem-solving. This is a proud moment for our association and the University of Dar es Salaam.",
+      "image": "/images/news/competition-win.jpg",
+      "category": "Achievement",
+      "link": "/community/awards",
+      "featured": true
+    },
+    {
+      "id": "news-006",
+      "title": "New Partnership with Jubilee Insurance Announced",
+      "type": "announcement",
+      "date": "2026-09-05",
+      "description": "ASAUD expands partner network with leading regional insurer.",
+      "fullContent": "We are pleased to announce a new partnership with Jubilee Insurance. This collaboration will provide ASAUD members with internship opportunities, mentorship from senior actuaries, and career development workshops. We look forward to a fruitful partnership.",
+      "image": "/images/news/jubilee-partnership.jpg",
+      "category": "Partnership",
+      "link": "/community/partners",
+      "featured": false
+    },
+    {
+      "id": "news-007",
+      "title": "Actuarial Exam Study Group Forming",
+      "type": "announcement",
+      "date": "2026-09-01",
+      "description": "Join our study group for professional actuarial exams.",
+      "fullContent": "ASAUD is organizing a study group for members preparing for professional actuarial exams (IFoA, SOA). The group will meet weekly for problem-solving, discussion, and peer support. Interested members should contact the Academic Director.",
+      "image": "/images/news/study-group.jpg",
+      "category": "Academic",
+      "link": "/about/contact",
+      "featured": false
+    },
+    {
+      "id": "news-008",
+      "title": "Call for Papers: 2027 Research Symposium",
+      "type": "announcement",
+      "date": "2026-08-25",
+      "description": "Submit your research papers for the 2027 Actuarial Research Symposium.",
+      "fullContent": "Students are invited to submit research papers for presentation at the 2027 Actuarial Research Symposium. Papers should address topics in actuarial science, risk management, or financial modeling. Submission deadline is January 15, 2027.",
+      "image": "/images/news/call-for-papers.jpg",
+      "category": "Academic",
+      "deadline": "2027-01-15",
+      "link": "/news-events/events/evt-005",
+      "featured": false
+    },
+    {
+      "id": "news-009",
+      "title": "Alumni Spotlight: From ASAUD to Professional Actuary",
+      "type": "achievement",
+      "date": "2026-08-20",
+      "description": "Three ASAUD alumni achieve Associate status with IFoA.",
+      "fullContent": "We celebrate three ASAUD alumni who recently achieved Associate status with the Institute and Faculty of Actuaries (IFoA). Their success demonstrates the strength of our program and the dedication of our members. Read their stories in the awards section.",
+      "image": "/images/news/alumni-spotlight.jpg",
+      "category": "Achievement",
+      "link": "/community/awards",
+      "featured": false
+    },
+    {
+      "id": "news-010",
+      "title": "Workshop: R for Actuarial Analysis",
+      "type": "training",
+      "date": "2026-08-15",
+      "description": "Hands-on R programming workshop for actuarial applications.",
+      "fullContent": "A comprehensive workshop on using R for actuarial analysis, including data manipulation, statistical modeling, and visualization. Suitable for all levels. Register through the events section.",
+      "image": "/images/news/r-workshop.jpg",
+      "category": "Training",
+      "link": "/news-events/events",
+      "featured": false
+    }
+  ]
+}

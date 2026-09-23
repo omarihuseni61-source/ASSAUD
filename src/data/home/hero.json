@@ -1,0 +1,22 @@
+{
+  "title": "Welcome to ASAUD",
+  "subtitle": "Actuarial Science Association - University of Dar es Salaam",
+  "description": "Empowering actuarial science students through knowledge, career guidance, and professional development. Your gateway to academic excellence and professional growth.",
+  "backgroundImage": "/images/hero/hero-bg.jpg",
+  "stats": [
+    { "label": "Active Members", "value": "500+" },
+    { "label": "Industry Partners", "value": "10+" },
+    { "label": "Study Materials", "value": "200+" },
+    { "label": "Years of Excellence", "value": "9+" }
+  ],
+  "cta": {
+    "primary": {
+      "text": "Explore Academics",
+      "link": "/academics"
+    },
+    "secondary": {
+      "text": "Join Community",
+      "link": "/community/membership"
+    }
+  }
+}

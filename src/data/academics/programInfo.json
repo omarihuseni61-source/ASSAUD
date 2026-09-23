@@ -1,0 +1,128 @@
+{
+  "programInfo": {
+    "name": "Bachelor of Science in Actuarial Science",
+    "duration": "4 years",
+    "degree": "BSc. Actuarial Science",
+    "faculty": "Faculty of Science",
+    "department": "Department of Mathematics",
+    "university": "University of Dar es Salaam"
+  },
+  "description": "The Bachelor of Science in Actuarial Science at UDSM is a rigorous four-year programme designed to produce highly skilled professionals capable of analyzing and managing risk in insurance, finance, and related fields. The programme combines mathematics, statistics, economics, and finance with practical actuarial applications.",
+  "structure": {
+    "years": [
+      {
+        "year": 1,
+        "title": "Foundation Year",
+        "description": "Build a strong foundation in mathematics, statistics, and economics.",
+        "focus": "Mathematical foundations and introduction to actuarial concepts",
+        "courses": [
+          { "code": "AS 101", "name": "Introduction to Actuarial Science", "credits": 3 },
+          { "code": "AS 102", "name": "Financial Mathematics I", "credits": 3 },
+          { "code": "MT 101", "name": "Calculus I", "credits": 4 },
+          { "code": "MT 102", "name": "Calculus II", "credits": 4 },
+          { "code": "ST 101", "name": "Probability Theory", "credits": 3 },
+          { "code": "EC 101", "name": "Principles of Economics", "credits": 3 }
+        ]
+      },
+      {
+        "year": 2,
+        "title": "Core Actuarial Foundation",
+        "description": "Deep dive into probability, statistics, and financial mathematics.",
+        "focus": "Statistical methods and actuarial mathematics",
+        "courses": [
+          { "code": "AS 201", "name": "Probability & Statistics", "credits": 4 },
+          { "code": "AS 202", "name": "Financial Mathematics II", "credits": 3 },
+          { "code": "AS 203", "name": "Life Contingencies I", "credits": 4 },
+          { "code": "MT 201", "name": "Linear Algebra", "credits": 3 },
+          { "code": "ST 201", "name": "Statistical Inference", "credits": 3 },
+          { "code": "EC 201", "name": "Microeconomics", "credits": 3 }
+        ]
+      },
+      {
+        "year": 3,
+        "title": "Advanced Actuarial Methods",
+        "description": "Apply actuarial techniques to insurance and financial products.",
+        "focus": "Applied actuarial modeling and professional practice",
+        "courses": [
+          { "code": "AS 301", "name": "Life Contingencies II", "credits": 4 },
+          { "code": "AS 302", "name": "Risk Theory", "credits": 3 },
+          { "code": "AS 303", "name": "Actuarial Modeling", "credits": 4 },
+          { "code": "AS 304", "name": "Pensions & Social Security", "credits": 3 },
+          { "code": "ST 301", "name": "Regression Analysis", "credits": 3 },
+          { "code": "FI 301", "name": "Corporate Finance", "credits": 3 }
+        ]
+      },
+      {
+        "year": 4,
+        "title": "Specialization & Research",
+        "description": "Specialize in advanced topics and complete a research project.",
+        "focus": "Advanced actuarial practice, research, and industry preparation",
+        "courses": [
+          { "code": "AS 401", "name": "Advanced Actuarial Practice", "credits": 4 },
+          { "code": "AS 402", "name": "Enterprise Risk Management", "credits": 3 },
+          { "code": "AS 403", "name": "Actuarial Data Science", "credits": 3 },
+          { "code": "AS 404", "name": "Research Project", "credits": 6 },
+          { "code": "AS 405", "name": "Professional Ethics & Practice", "credits": 2 }
+        ]
+      }
+    ]
+  },
+  "progressionRequirements": [
+    {
+      "level": "Year 1 → Year 2",
+      "requirement": "Pass all Year 1 courses with a minimum GPA of 2.0"
+    },
+    {
+      "level": "Year 2 → Year 3",
+      "requirement": "Pass all Year 2 courses, minimum GPA of 2.5, and pass AS 201"
+    },
+    {
+      "level": "Year 3 → Year 4",
+      "requirement": "Pass all Year 3 courses, minimum GPA of 2.5, and demonstrate competency in actuarial modeling"
+    }
+  ],
+  "graduationRequirements": [
+    {
+      "requirement": "Complete 120+ credit hours",
+      "description": "Minimum of 120 credit hours across all four years"
+    },
+    {
+      "requirement": "Pass all core actuarial courses",
+      "description": "All AS-coded courses must be passed with a C or higher"
+    },
+    {
+      "requirement": "Complete research project",
+      "description": "Submit and defend a final year research project (AS 404)"
+    },
+    {
+      "requirement": "Minimum cumulative GPA",
+      "description": "Achieve a minimum cumulative GPA of 2.5 to graduate"
+    }
+  ],
+  "skillsDeveloped": [
+    {
+      "skill": "Mathematical Modeling",
+      "description": "Build and analyze mathematical models for risk and uncertainty"
+    },
+    {
+      "skill": "Statistical Analysis",
+      "description": "Apply statistical methods to real-world insurance and financial data"
+    },
+    {
+      "skill": "Financial Mathematics",
+      "description": "Master time value of money, annuities, and financial instruments"
+    },
+    {
+      "skill": "Programming & Data Science",
+      "description": "Use R, Python, and Excel for actuarial analysis and modeling"
+    },
+    {
+      "skill": "Risk Management",
+      "description": "Identify, assess, and manage financial and insurance risks"
+    },
+    {
+      "skill": "Professional Communication",
+      "description": "Communicate complex actuarial concepts to diverse audiences"
+    }
+  ]
+}

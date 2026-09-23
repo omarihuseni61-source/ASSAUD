@@ -1,0 +1,34 @@
+{
+  "activities": [
+    {
+      "id": "feat-001",
+      "title": "Actuarial Career Fair 2026",
+      "description": "Connect with industry professionals from leading insurance, pension, and investment companies. Explore internship and graduate opportunities.",
+      "image": "/images/events/career-fair.jpg",
+      "link": "/news-events/events/evt-001",
+      "category": "Event",
+      "date": "2026-10-15",
+      "featured": true
+    },
+    {
+      "id": "feat-002",
+      "title": "Advanced Probability Workshop",
+      "description": "Intensive hands-on workshop on advanced probability theory with real-world actuarial applications.",
+      "image": "/images/events/probability-workshop.jpg",
+      "link": "/news-events/events/evt-002",
+      "category": "Workshop",
+      "date": "2026-09-28",
+      "featured": true
+    },
+    {
+      "id": "feat-003",
+      "title": "Insurance Claims Analysis Project",
+      "description": "Student-led project analyzing real insurance claims data to develop predictive reserving models.",
+      "image": "/images/projects/claims-analysis.jpg",
+      "link": "/data-projects/student-projects/proj-001",
+      "category": "Project",
+      "date": "2026-08-20",
+      "featured": true
+    }
+  ]
+}

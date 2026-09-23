@@ -1,0 +1,184 @@
+{
+  "courses": [
+    {
+      "id": "AS101",
+      "code": "AS 101",
+      "name": "Introduction to Actuarial Science",
+      "level": 1,
+      "semester": 1,
+      "credits": 3,
+      "lecturer": "Dr. Jane Doe",
+      "email": "jane.doe@udsm.ac.tz",
+      "description": "Foundational course covering basic actuarial principles, the role of actuaries, and fundamental probability concepts.",
+      "objectives": [
+        "Understand the actuarial profession and its roles",
+        "Master basic probability theory",
+        "Learn fundamental risk concepts",
+        "Understand actuarial notation and conventions"
+      ],
+      "assessmentMethod": "Exam (70%), Assignments (20%), Participation (10%)"
+    },
+    {
+      "id": "AS102",
+      "code": "AS 102",
+      "name": "Financial Mathematics I",
+      "level": 1,
+      "semester": 1,
+      "credits": 3,
+      "lecturer": "Prof. Michael Smith",
+      "email": "michael.smith@udsm.ac.tz",
+      "description": "Introduction to financial mathematics including interest rates, annuities, and loans.",
+      "objectives": [
+        "Understand time value of money",
+        "Calculate present and future values",
+        "Work with annuities and perpetuities",
+        "Solve loan and investment problems"
+      ],
+      "assessmentMethod": "Exam (70%), Assignments (30%)"
+    },
+    {
+      "id": "AS201",
+      "code": "AS 201",
+      "name": "Probability & Statistics",
+      "level": 2,
+      "semester": 1,
+      "credits": 4,
+      "lecturer": "Dr. Sarah Johnson",
+      "email": "sarah.johnson@udsm.ac.tz",
+      "description": "Advanced probability theory and statistical methods essential for actuarial work.",
+      "objectives": [
+        "Master advanced probability distributions",
+        "Apply statistical inference and hypothesis testing",
+        "Perform regression analysis",
+        "Understand actuarial applications of statistics"
+      ],
+      "assessmentMethod": "Exam (60%), Projects (25%), Participation (15%)"
+    },
+    {
+      "id": "AS202",
+      "code": "AS 202",
+      "name": "Financial Mathematics II",
+      "level": 2,
+      "semester": 2,
+      "credits": 3,
+      "lecturer": "Prof. Michael Smith",
+      "email": "michael.smith@udsm.ac.tz",
+      "description": "Advanced financial mathematics covering yield curves, duration, and immunization.",
+      "objectives": [
+        "Analyze yield curves and term structure",
+        "Understand duration and convexity",
+        "Apply immunization strategies",
+        "Value complex financial instruments"
+      ],
+      "assessmentMethod": "Exam (70%), Assignments (30%)"
+    },
+    {
+      "id": "AS203",
+      "code": "AS 203",
+      "name": "Life Contingencies I",
+      "level": 2,
+      "semester": 2,
+      "credits": 4,
+      "lecturer": "Dr. Alice Mwangi",
+      "email": "alice.mwangi@udsm.ac.tz",
+      "description": "Introduction to life contingencies including mortality models and life insurance mathematics.",
+      "objectives": [
+        "Understand mortality models and life tables",
+        "Calculate life insurance premiums",
+        "Analyze life annuities",
+        "Apply survival models to insurance"
+      ],
+      "assessmentMethod": "Exam (65%), Assignments (25%), Quiz (10%)"
+    },
+    {
+      "id": "AS301",
+      "code": "AS 301",
+      "name": "Life Contingencies II",
+      "level": 3,
+      "semester": 1,
+      "credits": 4,
+      "lecturer": "Dr. Alice Mwangi",
+      "email": "alice.mwangi@udsm.ac.tz",
+      "description": "Advanced life contingencies covering multi-life models, pension plans, and reserves.",
+      "objectives": [
+        "Model multi-life contingencies",
+        "Calculate reserves and provisions",
+        "Analyze pension plans",
+        "Understand profit testing"
+      ],
+      "assessmentMethod": "Exam (70%), Project (20%), Participation (10%)"
+    },
+    {
+      "id": "AS302",
+      "code": "AS 302",
+      "name": "Risk Theory",
+      "level": 3,
+      "semester": 1,
+      "credits": 3,
+      "lecturer": "Dr. Robert Kimani",
+      "email": "robert.kimani@udsm.ac.tz",
+      "description": "Study of risk models, collective risk theory, and ruin theory for insurance.",
+      "objectives": [
+        "Understand collective risk models",
+        "Apply ruin theory to insurance",
+        "Analyze claim distributions",
+        "Model aggregate claims"
+      ],
+      "assessmentMethod": "Exam (70%), Assignments (30%)"
+    },
+    {
+      "id": "AS303",
+      "code": "AS 303",
+      "name": "Actuarial Modeling",
+      "level": 3,
+      "semester": 2,
+      "credits": 4,
+      "lecturer": "Dr. Grace Njeri",
+      "email": "grace.njeri@udsm.ac.tz",
+      "description": "Practical actuarial modeling using software tools (R, Python, Excel) for insurance and financial applications.",
+      "objectives": [
+        "Build actuarial models in R and Python",
+        "Apply simulation techniques",
+        "Perform sensitivity analysis",
+        "Validate and document models"
+      ],
+      "assessmentMethod": "Project (50%), Exam (40%), Participation (10%)"
+    },
+    {
+      "id": "AS401",
+      "code": "AS 401",
+      "name": "Advanced Actuarial Practice",
+      "level": 4,
+      "semester": 1,
+      "credits": 4,
+      "lecturer": "Dr. Jane Doe",
+      "email": "jane.doe@udsm.ac.tz",
+      "description": "Capstone course applying actuarial techniques to real-world insurance and financial problems.",
+      "objectives": [
+        "Apply advanced actuarial techniques",
+        "Solve complex business problems",
+        "Present findings professionally",
+        "Demonstrate professional judgment"
+      ],
+      "assessmentMethod": "Exam (50%), Case Studies (40%), Presentation (10%)"
+    },
+    {
+      "id": "AS402",
+      "code": "AS 402",
+      "name": "Enterprise Risk Management",
+      "level": 4,
+      "semester": 1,
+      "credits": 3,
+      "lecturer": "Dr. Robert Kimani",
+      "email": "robert.kimani@udsm.ac.tz",
+      "description": "Comprehensive study of enterprise risk management frameworks and practices.",
+      "objectives": [
+        "Understand ERM frameworks",
+        "Identify and assess risks",
+        "Develop risk mitigation strategies",
+        "Apply ERM in financial institutions"
+      ],
+      "assessmentMethod": "Exam (60%), Project (40%)"
+    }
+  ]
+}

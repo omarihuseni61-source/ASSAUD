@@ -1,0 +1,194 @@
+{
+  "materials": [
+    {
+      "courseId": "AS101",
+      "courseCode": "AS 101",
+      "courseName": "Introduction to Actuarial Science",
+      "level": 1,
+      "semester": 1,
+      "lecturer": "Dr. Jane Doe",
+      "resources": [
+        {
+          "id": "as101-res-001",
+          "type": "lecture",
+          "title": "Week 1 - Introduction to the Actuarial Profession",
+          "fileName": "AS101_W1_Intro.pdf",
+          "fileSize": "2.5 MB",
+          "uploadDate": "2026-01-15",
+          "downloadUrl": "/downloads/study-materials/lectures/AS101_W1_Intro.pdf",
+          "description": "Overview of the actuarial profession, career paths, and fundamental concepts"
+        },
+        {
+          "id": "as101-res-002",
+          "type": "lecture",
+          "title": "Week 2 - Probability Basics",
+          "fileName": "AS101_W2_Probability.pdf",
+          "fileSize": "3.1 MB",
+          "uploadDate": "2026-01-22",
+          "downloadUrl": "/downloads/study-materials/lectures/AS101_W2_Probability.pdf",
+          "description": "Introduction to probability theory and basic probability calculations"
+        },
+        {
+          "id": "as101-res-003",
+          "type": "tutorial",
+          "title": "Tutorial 1 - Probability Problems",
+          "fileName": "AS101_Tutorial_1.pdf",
+          "fileSize": "0.8 MB",
+          "uploadDate": "2026-01-25",
+          "downloadUrl": "/downloads/study-materials/tutorials/AS101_Tutorial_1.pdf",
+          "description": "Practice problems with solutions for Week 1-2 content"
+        },
+        {
+          "id": "as101-res-004",
+          "type": "pastpaper",
+          "title": "Final Exam 2025",
+          "fileName": "AS101_Exam_2025.pdf",
+          "fileSize": "1.2 MB",
+          "uploadDate": "2026-01-30",
+          "downloadUrl": "/downloads/study-materials/past-papers/AS101_Exam_2025.pdf",
+          "description": "Previous year final examination for practice"
+        },
+        {
+          "id": "as101-res-005",
+          "type": "quiz",
+          "title": "Quiz 1 - Actuarial Concepts",
+          "fileName": "AS101_Quiz1.pdf",
+          "fileSize": "0.5 MB",
+          "uploadDate": "2026-02-01",
+          "downloadUrl": "/downloads/study-materials/quizzes/AS101_Quiz1.pdf",
+          "description": "Quick assessment quiz on introductory concepts"
+        }
+      ]
+    },
+    {
+      "courseId": "AS102",
+      "courseCode": "AS 102",
+      "courseName": "Financial Mathematics I",
+      "level": 1,
+      "semester": 1,
+      "lecturer": "Prof. Michael Smith",
+      "resources": [
+        {
+          "id": "as102-res-001",
+          "type": "lecture",
+          "title": "Week 1 - Time Value of Money",
+          "fileName": "AS102_W1_TVM.pdf",
+          "fileSize": "2.8 MB",
+          "uploadDate": "2026-01-15",
+          "downloadUrl": "/downloads/study-materials/lectures/AS102_W1_TVM.pdf",
+          "description": "Introduction to present value, future value, and interest rates"
+        },
+        {
+          "id": "as102-res-002",
+          "type": "lecture",
+          "title": "Week 2 - Annuities",
+          "fileName": "AS102_W2_Annuities.pdf",
+          "fileSize": "3.2 MB",
+          "uploadDate": "2026-01-22",
+          "downloadUrl": "/downloads/study-materials/lectures/AS102_W2_Annuities.pdf",
+          "description": "Annuities-immediate, annuities-due, and perpetuities"
+        },
+        {
+          "id": "as102-res-003",
+          "type": "pastpaper",
+          "title": "Final Exam 2025",
+          "fileName": "AS102_Exam_2025.pdf",
+          "fileSize": "1.4 MB",
+          "uploadDate": "2026-01-30",
+          "downloadUrl": "/downloads/study-materials/past-papers/AS102_Exam_2025.pdf",
+          "description": "Previous year final examination with solutions"
+        }
+      ]
+    },
+    {
+      "courseId": "AS201",
+      "courseCode": "AS 201",
+      "courseName": "Probability & Statistics",
+      "level": 2,
+      "semester": 1,
+      "lecturer": "Dr. Sarah Johnson",
+      "resources": [
+        {
+          "id": "as201-res-001",
+          "type": "lecture",
+          "title": "Week 1 - Random Variables",
+          "fileName": "AS201_W1_RandomVars.pdf",
+          "fileSize": "3.5 MB",
+          "uploadDate": "2026-01-15",
+          "downloadUrl": "/downloads/study-materials/lectures/AS201_W1_RandomVars.pdf",
+          "description": "Discrete and continuous random variables"
+        },
+        {
+          "id": "as201-res-002",
+          "type": "lecture",
+          "title": "Week 2 - Common Distributions",
+          "fileName": "AS201_W2_Distributions.pdf",
+          "fileSize": "4.1 MB",
+          "uploadDate": "2026-01-22",
+          "downloadUrl": "/downloads/study-materials/lectures/AS201_W2_Distributions.pdf",
+          "description": "Binomial, Poisson, Normal, and other common distributions"
+        },
+        {
+          "id": "as201-res-003",
+          "type": "tutorial",
+          "title": "Tutorial 1 - Distribution Problems",
+          "fileName": "AS201_Tutorial_1.pdf",
+          "fileSize": "1.1 MB",
+          "uploadDate": "2026-01-25",
+          "downloadUrl": "/downloads/study-materials/tutorials/AS201_Tutorial_1.pdf",
+          "description": "Distribution practice problems with solutions"
+        },
+        {
+          "id": "as201-res-004",
+          "type": "pastpaper",
+          "title": "Final Exam 2025",
+          "fileName": "AS201_Exam_2025.pdf",
+          "fileSize": "1.8 MB",
+          "uploadDate": "2026-01-30",
+          "downloadUrl": "/downloads/study-materials/past-papers/AS201_Exam_2025.pdf",
+          "description": "Previous year final examination"
+        },
+        {
+          "id": "as201-res-005",
+          "type": "pastpaper",
+          "title": "Final Exam 2025 - Solutions",
+          "fileName": "AS201_Exam_2025_Solutions.pdf",
+          "fileSize": "2.1 MB",
+          "uploadDate": "2026-01-30",
+          "downloadUrl": "/downloads/study-materials/past-papers/AS201_Exam_2025_Solutions.pdf",
+          "description": "Detailed solutions and marking guide"
+        }
+      ]
+    },
+    {
+      "courseId": "AS203",
+      "courseCode": "AS 203",
+      "courseName": "Life Contingencies I",
+      "level": 2,
+      "semester": 2,
+      "lecturer": "Dr. Alice Mwangi",
+      "resources": [
+        {
+          "id": "as203-res-001",
+          "type": "lecture",
+          "title": "Week 1 - Survival Models",
+          "fileName": "AS203_W1_Survival.pdf",
+          "fileSize": "3.8 MB",
+          "uploadDate": "2026-01-15",
+          "downloadUrl": "/downloads/study-materials/lectures/AS203_W1_Survival.pdf",
+          "description": "Introduction to survival models and life tables"
+        },
+        {
+          "id": "as203-res-002",
+          "type": "pastpaper",
+          "title": "Final Exam 2025",
+          "fileName": "AS203_Exam_2025.pdf",
+          "fileSize": "1.6 MB",
+          "uploadDate": "2026-01-30",
+          "downloadUrl": "/downloads/study-materials/past-papers/AS203_Exam_2025.pdf",
+          "description": "Previous year final examination"
+        }
+      ]
+    }
+  ]
+}

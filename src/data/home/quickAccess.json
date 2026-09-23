@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "id": "qa-academics",
+      "title": "Academics",
+      "description": "Access lecture slides, tutorials, past papers, and career guidance for actuarial science students.",
+      "icon": "book-open",
+      "href": "/academics",
+      "color": "blue",
+      "highlights": ["Lecture Slides", "Past Papers", "Career Pathways"]
+    },
+    {
+      "id": "qa-data",
+      "title": "Data & Projects",
+      "description": "Explore datasets for practice and discover innovative student projects in actuarial science.",
+      "icon": "database",
+      "href": "/data-projects",
+      "color": "green",
+      "highlights": ["Insurance Datasets", "Mortality Tables", "Student Projects"]
+    },
+    {
+      "id": "qa-community",
+      "title": "Community",
+      "description": "Meet our leadership, learn about membership, and connect with partners and alumni.",
+      "icon": "users",
+      "href": "/community",
+      "color": "purple",
+      "highlights": ["Leadership", "Membership", "Partners"]
+    },
+    {
+      "id": "qa-news",
+      "title": "News & Events",
+      "description": "Stay updated with upcoming events, internships, scholarships, and opportunities.",
+      "icon": "newspaper",
+      "href": "/news-events",
+      "color": "orange",
+      "highlights": ["Career Fairs", "Workshops", "Scholarships"]
+    }
+  ]
+}

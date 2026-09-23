@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "title": "About",
+      "links": [
+        { "label": "About ASAUD", "href": "/about/about-asaud" },
+        { "label": "History", "href": "/about/history" },
+        { "label": "Constitution", "href": "/about/constitution" },
+        { "label": "FAQs", "href": "/about/faqs" },
+        { "label": "Contact", "href": "/about/contact" }
+      ]
+    },
+    {
+      "title": "Academics",
+      "links": [
+        { "label": "Actuarial Science at UDSM", "href": "/academics/actuarial-science" },
+        { "label": "Study Materials", "href": "/academics/study-materials" },
+        { "label": "Career Pathways", "href": "/academics/career-pathways" }
+      ]
+    },
+    {
+      "title": "Community",
+      "links": [
+        { "label": "Leadership", "href": "/community/leadership" },
+        { "label": "Membership", "href": "/community/membership" },
+        { "label": "Awards & Recognition", "href": "/community/awards" },
+        { "label": "Partners", "href": "/community/partners" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Data Hub", "href": "/data-projects/data-hub" },
+        { "label": "Student Projects", "href": "/data-projects/student-projects" },
+        { "label": "Upcoming Events", "href": "/news-events/events" },
+        { "label": "Latest News", "href": "/news-events/news" }
+      ]
+    }
+  ]
+}

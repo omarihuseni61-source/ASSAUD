@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": "membership",
+      "category": "Membership",
+      "icon": "users",
+      "faqs": [
+        {
+          "id": "faq-001",
+          "question": "Who can join ASAUD?",
+          "answer": "Any student currently enrolled in the Actuarial Science programme at UDSM can join ASAUD as a full member. Students from related fields such as Mathematics, Statistics, or Computer Science may join as associate members.",
+          "relatedLinks": [
+            { "label": "Learn about Membership", "href": "/community/membership" }
+          ]
+        },
+        {
+          "id": "faq-002",
+          "question": "What are the membership fees?",
+          "answer": "ASAUD offers free membership for all actuarial science students. There are no mandatory fees. Optional donations support special projects, events, and resources for members.",
+          "relatedLinks": []
+        },
+        {
+          "id": "faq-003",
+          "question": "How do I register as a member?",
+          "answer": "Visit the Membership section and fill out the registration form. You'll receive confirmation and access to member resources within 2-3 business days. Membership is confirmed at the start of each academic year.",
+          "relatedLinks": [
+            { "label": "Register Now", "href": "/community/membership" }
+          ]
+        },
+        {
+          "id": "faq-004",
+          "question": "Can I join if I'm not in Actuarial Science?",
+          "answer": "Yes! Students from related disciplines (Mathematics, Statistics, Computer Science, Economics) can join as Associate Members. You'll have access to most resources and events.",
+          "relatedLinks": [
+            { "label": "View Membership Categories", "href": "/community/membership" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academics",
+      "category": "Academics",
+      "icon": "book",
+      "faqs": [
+        {
+          "id": "faq-005",
+          "question": "Where can I find study materials?",
+          "answer": "All study materials including lecture slides, tutorials, past papers, and quizzes are available in the Academics > Study Materials section. Materials are organized by course, year level, and semester.",
+          "relatedLinks": [
+            { "label": "Browse Study Materials", "href": "/academics/study-materials" }
+          ]
+        },
+        {
+          "id": "faq-006",
+          "question": "Are materials updated regularly?",
+          "answer": "Yes, materials are updated at the beginning of each semester. Past materials from previous years are maintained for reference and exam preparation. We aim to have all current semester materials uploaded within the first two weeks of the semester.",
+          "relatedLinks": [
+            { "label": "View Latest Materials", "href": "/academics/study-materials" }
+          ]
+        },
+        {
+          "id": "faq-007",
+          "question": "How can I contribute study materials?",
+          "answer": "If you have study materials to share (notes, solved problems, past papers), please contact the Academics Director at academics@asaud.udsm.ac.tz. All contributions are reviewed before publication.",
+          "relatedLinks": [
+            { "label": "Contact Academics Team", "href": "/about/contact" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "category": "Career Development",
+      "icon": "briefcase",
+      "faqs": [
+        {
+          "id": "faq-008",
+          "question": "How can I become a professional actuary?",
+          "answer": "Becoming a professional actuary involves completing your degree, registering with a professional body, passing a series of professional exams, and gaining work experience. Visit the Career Pathways section for a detailed roadmap.",
+          "relatedLinks": [
+            { "label": "View Career Pathways", "href": "/academics/career-pathways" }
+          ]
+        },
+        {
+          "id": "faq-009",
+          "question": "What professional bodies should I join?",
+          "answer": "The main professional bodies for East African actuaries are the Actuarial Society of East Africa (ASEA) and the Institute and Faculty of Actuaries (IFoA). Details about both are available in the Career Pathways section.",
+          "relatedLinks": [
+            { "label": "Learn About Professional Bodies", "href": "/academics/career-pathways" }
+          ]
+        },
+        {
+          "id": "faq-010",
+          "question": "Does ASAUD help with internships?",
+          "answer": "Yes! ASAUD maintains partnerships with leading insurance companies and financial institutions. We share internship opportunities through our News & Events section and facilitate connections through our mentorship program.",
+          "relatedLinks": [
+            { "label": "See Latest Opportunities", "href": "/news-events/news" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "category": "Events & Activities",
+      "icon": "calendar",
+      "faqs": [
+        {
+          "id": "faq-011",
+          "question": "How do I register for events?",
+          "answer": "Each event has its own registration link on the event page. Simply click 'Register' and fill out the required form. Some events may have capacity limits or deadlines, so register early.",
+          "relatedLinks": [
+            { "label": "View Upcoming Events", "href": "/news-events/events" }
+          ]
+        },
+        {
+          "id": "faq-012",
+          "question": "Are events free for members?",
+          "answer": "Most ASAUD events are free for members. Some specialized workshops or conferences may have a small fee to cover costs. Details are always listed on the event page.",
+          "relatedLinks": []
+        },
+        {
+          "id": "faq-013",
+          "question": "Can I propose an event or workshop?",
+          "answer": "Absolutely! We welcome event proposals from members. Contact the Events Director at events@asaud.udsm.ac.tz with your idea, and we'll help you organize it.",
+          "relatedLinks": [
+            { "label": "Contact Events Team", "href": "/about/contact" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "category": "General",
+      "icon": "info",
+      "faqs": [
+        {
+          "id": "faq-014",
+          "question": "How can I contact ASAUD?",
+          "answer": "You can reach us via email at asaud@udsm.ac.tz, through our social media channels, or by visiting our office at the University of Dar es Salaam main campus.",
+          "relatedLinks": [
+            { "label": "Full Contact Information", "href": "/about/contact" }
+          ]
+        },
+        {
+          "id": "faq-015",
+          "question": "How can my company partner with ASAUD?",
+          "answer": "We welcome partnerships with organizations that share our commitment to developing actuarial talent. Contact us at partnerships@asaud.udsm.ac.tz to discuss collaboration opportunities.",
+          "relatedLinks": [
+            { "label": "See Our Partners", "href": "/community/partners" }
+          ]
+        }
+      ]
+    }
+  ]
+}

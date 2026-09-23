@@ -1,0 +1,66 @@
+{
+  "navItems": [
+    {
+      "id": "nav-home",
+      "label": "Home",
+      "href": "/",
+      "icon": "home"
+    },
+    {
+      "id": "nav-about",
+      "label": "About",
+      "href": "/about",
+      "icon": "info",
+      "subItems": [
+        { "label": "About ASAUD", "href": "/about/about-asaud" },
+        { "label": "History", "href": "/about/history" },
+        { "label": "Constitution", "href": "/about/constitution" },
+        { "label": "FAQs", "href": "/about/faqs" },
+        { "label": "Contact", "href": "/about/contact" }
+      ]
+    },
+    {
+      "id": "nav-academics",
+      "label": "Academics",
+      "href": "/academics",
+      "icon": "book",
+      "subItems": [
+        { "label": "Actuarial Science at UDSM", "href": "/academics/actuarial-science" },
+        { "label": "Study Materials", "href": "/academics/study-materials" },
+        { "label": "Career Pathways", "href": "/academics/career-pathways" }
+      ]
+    },
+    {
+      "id": "nav-data",
+      "label": "Data & Projects",
+      "href": "/data-projects",
+      "icon": "database",
+      "subItems": [
+        { "label": "Data Hub", "href": "/data-projects/data-hub" },
+        { "label": "Student Projects", "href": "/data-projects/student-projects" }
+      ]
+    },
+    {
+      "id": "nav-community",
+      "label": "Community",
+      "href": "/community",
+      "icon": "users",
+      "subItems": [
+        { "label": "Leadership", "href": "/community/leadership" },
+        { "label": "Membership", "href": "/community/membership" },
+        { "label": "Awards & Recognition", "href": "/community/awards" },
+        { "label": "Partners", "href": "/community/partners" }
+      ]
+    },
+    {
+      "id": "nav-news",
+      "label": "News & Events",
+      "href": "/news-events",
+      "icon": "newspaper",
+      "subItems": [
+        { "label": "Upcoming Events", "href": "/news-events/events" },
+        { "label": "News & Opportunities", "href": "/news-events/news" }
+      ]
+    }
+  ]
+}

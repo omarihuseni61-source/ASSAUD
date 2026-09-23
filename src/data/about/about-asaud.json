@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "name": "Actuarial Science Association",
+    "acronym": "ASAUD",
+    "tagline": "Shaping the Future of Actuarial Science",
+    "established": "2015"
+  },
+  "relationship": {
+    "university": "University of Dar es Salaam",
+    "faculty": "Faculty of Science - Department of Mathematics",
+    "establishmentDate": "2015"
+  },
+  "overview": "The Actuarial Science Association of the University of Dar es Salaam (ASAUD) is a student-led organization dedicated to supporting students pursuing actuarial science. We bridge the gap between academic learning and professional practice through resources, mentorship, and industry connections.",
+  "vision": "To be a leading student association that advances actuarial science education and professional development in East Africa.",
+  "mission": "To support actuarial science students through academic resources, professional guidance, and community engagement while promoting excellence in the field.",
+  "objectives": [
+    {
+      "title": "Academic Excellence",
+      "description": "Provide quality academic support and resources to help students succeed in their studies.",
+      "icon": "book"
+    },
+    {
+      "title": "Career Development",
+      "description": "Facilitate career development through mentorship, networking, and industry exposure.",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Professional Awareness",
+      "description": "Promote awareness of actuarial science as a profession across East Africa.",
+      "icon": "megaphone"
+    },
+    {
+      "title": "Community Building",
+      "description": "Foster a vibrant, inclusive, and supportive student community.",
+      "icon": "users"
+    },
+    {
+      "title": "Industry Partnerships",
+      "description": "Collaborate with industry partners and professional bodies for mutual benefit.",
+      "icon": "handshake"
+    },
+    {
+      "title": "Research & Innovation",
+      "description": "Encourage research, data analysis, and innovative problem-solving among students.",
+      "icon": "lightbulb"
+    }
+  ],
+  "coreValues": [
+    {
+      "value": "Excellence",
+      "description": "Striving for the highest standards in all our activities.",
+      "icon": "star"
+    },
+    {
+      "value": "Integrity",
+      "description": "Operating with honesty and strong moral principles.",
+      "icon": "shield"
+    },
+    {
+      "value": "Community",
+      "description": "Building strong relationships and supporting one another.",
+      "icon": "users"
+    },
+    {
+      "value": "Innovation",
+      "description": "Embracing new ideas and continuous improvement.",
+      "icon": "lightbulb"
+    },
+    {
+      "value": "Inclusivity",
+      "description": "Welcoming students from all backgrounds and experiences.",
+      "icon": "heart"
+    },
+    {
+      "value": "Professionalism",
+      "description": "Upholding the standards of the actuarial profession.",
+      "icon": "award"
+    }
+  ],
+  "membershipScope": {
+    "title": "Who Can Join",
+    "description": "ASAUD membership is open to all students currently enrolled in the Actuarial Science programme at the University of Dar es Salaam.",
+    "categories": [
+      {
+        "name": "Full Members",
+        "description": "Actively enrolled Actuarial Science students at UDSM.",
+        "eligibility": "Currently registered in the Actuarial Science programme"
+      },
+      {
+        "name": "Associate Members",
+        "description": "Students from related fields (Mathematics, Statistics, Computer Science).",
+        "eligibility": "Enrolled in related programmes with interest in actuarial science"
+      },
+      {
+        "name": "Alumni Members",
+        "description": "Graduates of the Actuarial Science programme at UDSM.",
+        "eligibility": "Completed the Actuarial Science degree at UDSM"
+      }
+    ]
+  },
+  "roles": [
+    {
+      "role": "Academic Support",
+      "description": "Providing study materials, tutorials, and academic guidance to members."
+    },
+    {
+      "role": "Career Guidance",
+      "description": "Connecting students with professionals, internships, and job opportunities."
+    },
+    {
+      "role": "Community Building",
+      "description": "Organizing social events and fostering a supportive student community."
+    },
+    {
+      "role": "Professional Advocacy",
+      "description": "Promoting actuarial science as a profession within and beyond UDSM."
+    }
+  ]
+}

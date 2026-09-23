@@ -1,0 +1,28 @@
+{
+  "social": [
+    {
+      "platform": "Facebook",
+      "handle": "@ASAUD-UDSM",
+      "url": "https://facebook.com/asaud.udsm",
+      "icon": "facebook"
+    },
+    {
+      "platform": "Twitter",
+      "handle": "@ASAUD_UDSM",
+      "url": "https://twitter.com/asaud_udsm",
+      "icon": "twitter"
+    },
+    {
+      "platform": "LinkedIn",
+      "handle": "ASAUD-UDSM",
+      "url": "https://linkedin.com/company/asaud-udsm",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Instagram",
+      "handle": "@asaud_udsm",
+      "url": "https://instagram.com/asaud_udsm",
+      "icon": "instagram"
+    }
+  ]
+}

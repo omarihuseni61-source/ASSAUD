@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "id": "upd-001",
+      "date": "2026-09-20",
+      "title": "New Study Materials Released",
+      "content": "All lecture slides and tutorials for Semester 1 are now available in the Academics section.",
+      "type": "academic",
+      "link": "/academics/study-materials"
+    },
+    {
+      "id": "upd-002",
+      "date": "2026-09-18",
+      "title": "Career Mentorship Program Launches",
+      "content": "Sign up for our new mentorship program connecting students with industry professionals.",
+      "type": "opportunity",
+      "link": "/news-events/news/news-002"
+    },
+    {
+      "id": "upd-003",
+      "date": "2026-09-15",
+      "title": "Leadership Elections Concluded",
+      "content": "Congratulations to our newly elected leadership team for 2026-2027.",
+      "type": "announcement",
+      "link": "/community/leadership"
+    }
+  ]
+}

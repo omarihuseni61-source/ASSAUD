@@ -1,0 +1,197 @@
+{
+  "datasets": [
+    {
+      "id": "mortality-tanzania-2023",
+      "name": "Tanzania Mortality Data 2023",
+      "category": "mortality",
+      "description": "Age-specific mortality rates for Tanzania covering all regions and demographics. Ideal for life insurance pricing and pension analysis.",
+      "variables": [
+        { "name": "age", "type": "integer", "description": "Age in years (0-100+)" },
+        { "name": "mortality_rate", "type": "decimal", "description": "Deaths per 1000 population" },
+        { "name": "gender", "type": "string", "description": "M (Male) or F (Female)" },
+        { "name": "region", "type": "string", "description": "Region in Tanzania" }
+      ],
+      "source": "Tanzania National Bureau of Statistics",
+      "format": "csv",
+      "fileSize": "1.2 MB",
+      "records": "125,000",
+      "downloadUrl": "/downloads/datasets/mortality-tanzania-2023.csv",
+      "usageExample": "Suitable for life insurance pricing, pension calculations, and mortality analysis",
+      "applications": [
+        "Life insurance pricing",
+        "Pension plan analysis",
+        "Population forecasting",
+        "Mortality modeling"
+      ]
+    },
+    {
+      "id": "insurance-claims-2023",
+      "name": "Motor Insurance Claims 2023",
+      "category": "claims",
+      "description": "Comprehensive motor insurance claims data for East Africa with severity and frequency information.",
+      "variables": [
+        { "name": "claim_id", "type": "string", "description": "Unique claim identifier" },
+        { "name": "claim_date", "type": "date", "description": "Date claim was filed" },
+        { "name": "claim_amount", "type": "decimal", "description": "Claim payout amount in USD" },
+        { "name": "vehicle_type", "type": "string", "description": "Type of vehicle" },
+        { "name": "severity", "type": "string", "description": "Claim severity level" }
+      ],
+      "source": "Insurance Company Partners",
+      "format": "xlsx",
+      "fileSize": "5.8 MB",
+      "records": "48,500",
+      "downloadUrl": "/downloads/datasets/insurance-claims-2023.xlsx",
+      "usageExample": "Analyze claim trends, severities, and develop reserving models",
+      "applications": [
+        "Claims analysis",
+        "Reserve setting",
+        "Pricing analysis",
+        "Fraud detection"
+      ]
+    },
+    {
+      "id": "life-tables-east-africa-2024",
+      "name": "East Africa Life Tables 2024",
+      "category": "mortality",
+      "description": "Regional life tables covering Kenya, Tanzania, Uganda, and Rwanda with period and cohort tables.",
+      "variables": [
+        { "name": "country", "type": "string", "description": "Country code" },
+        { "name": "age", "type": "integer", "description": "Age" },
+        { "name": "qx", "type": "decimal", "description": "Probability of death" },
+        { "name": "lx", "type": "integer", "description": "Number surviving" }
+      ],
+      "source": "East African Community Statistics",
+      "format": "csv",
+      "fileSize": "890 KB",
+      "records": "42,000",
+      "downloadUrl": "/downloads/datasets/life-tables-east-africa-2024.csv",
+      "usageExample": "Build life insurance products and pension schemes for East African markets",
+      "applications": [
+        "Life insurance",
+        "Annuity pricing",
+        "Pension valuation",
+        "Demographic research"
+      ]
+    },
+    {
+      "id": "financial-markets-2024",
+      "name": "East African Financial Markets 2024",
+      "category": "financial",
+      "description": "Daily stock prices, bond yields, and interest rate data from major East African exchanges.",
+      "variables": [
+        { "name": "date", "type": "date", "description": "Trading date" },
+        { "name": "asset", "type": "string", "description": "Asset code" },
+        { "name": "price", "type": "decimal", "description": "Closing price" },
+        { "name": "volume", "type": "integer", "description": "Trading volume" }
+      ],
+      "source": "Dar es Salaam Stock Exchange",
+      "format": "csv",
+      "fileSize": "3.4 MB",
+      "records": "180,000",
+      "downloadUrl": "/downloads/datasets/financial-markets-2024.csv",
+      "usageExample": "Analyze financial instruments and build investment models",
+      "applications": [
+        "Portfolio analysis",
+        "Risk modeling",
+        "Asset pricing",
+        "Investment research"
+      ]
+    },
+    {
+      "id": "health-claims-2023",
+      "name": "Health Insurance Claims 2023",
+      "category": "claims",
+      "description": "Health insurance claims data with diagnosis codes, treatment costs, and patient demographics.",
+      "variables": [
+        { "name": "claim_id", "type": "string", "description": "Claim identifier" },
+        { "name": "patient_age", "type": "integer", "description": "Patient age" },
+        { "name": "diagnosis", "type": "string", "description": "ICD-10 code" },
+        { "name": "cost", "type": "decimal", "description": "Treatment cost USD" }
+      ],
+      "source": "Health Insurance Partners",
+      "format": "csv",
+      "fileSize": "4.2 MB",
+      "records": "95,000",
+      "downloadUrl": "/downloads/datasets/health-claims-2023.csv",
+      "usageExample": "Analyze health claims patterns and develop predictive models",
+      "applications": [
+        "Health insurance pricing",
+        "Risk stratification",
+        "Cost analysis",
+        "Predictive modeling"
+      ]
+    },
+    {
+      "id": "population-demographics-2024",
+      "name": "Tanzania Population Demographics 2024",
+      "category": "demographic",
+      "description": "Population statistics by age, gender, region, and education level for Tanzania.",
+      "variables": [
+        { "name": "region", "type": "string", "description": "Tanzanian region" },
+        { "name": "age_group", "type": "string", "description": "Age bracket" },
+        { "name": "population", "type": "integer", "description": "Population count" },
+        { "name": "gender", "type": "string", "description": "Gender" }
+      ],
+      "source": "Tanzania Census 2022",
+      "format": "csv",
+      "fileSize": "2.1 MB",
+      "records": "68,000",
+      "downloadUrl": "/downloads/datasets/population-2024.csv",
+      "usageExample": "Understand demographic patterns for product design and market analysis",
+      "applications": [
+        "Market segmentation",
+        "Product design",
+        "Pension planning",
+        "Demographic research"
+      ]
+    },
+    {
+      "id": "simulated-portfolio-2024",
+      "name": "Simulated Investment Portfolio",
+      "category": "simulated",
+      "description": "Synthetic multi-asset portfolio data for practicing portfolio optimization and risk analysis.",
+      "variables": [
+        { "name": "date", "type": "date", "description": "Date" },
+        { "name": "asset_class", "type": "string", "description": "Asset class" },
+        { "name": "returns", "type": "decimal", "description": "Daily return" },
+        { "name": "weight", "type": "decimal", "description": "Portfolio weight" }
+      ],
+      "source": "ASAUD Simulated",
+      "format": "csv",
+      "fileSize": "1.8 MB",
+      "records": "25,000",
+      "downloadUrl": "/downloads/datasets/simulated-portfolio-2024.csv",
+      "usageExample": "Practice portfolio optimization and risk-return analysis",
+      "applications": [
+        "Portfolio optimization",
+        "Risk analysis",
+        "Performance evaluation",
+        "Teaching"
+      ]
+    },
+    {
+      "id": "annuity-mortality-2023",
+      "name": "Annuity Mortality Experience 2023",
+      "category": "mortality",
+      "description": "Mortality experience of annuity policyholders with detailed age-gender breakdown.",
+      "variables": [
+        { "name": "age", "type": "integer", "description": "Age at entry" },
+        { "name": "gender", "type": "string", "description": "Gender" },
+        { "name": "exposure", "type": "decimal", "description": "Exposure years" },
+        { "name": "deaths", "type": "integer", "description": "Number of deaths" }
+      ],
+      "source": "Pension Fund Partners",
+      "format": "csv",
+      "fileSize": "780 KB",
+      "records": "15,000",
+      "downloadUrl": "/downloads/datasets/annuity-mortality-2023.csv",
+      "usageExample": "Analyze annuity mortality experience and build pricing models",
+      "applications": [
+        "Annuity pricing",
+        "Longevity analysis",
+        "Reserve calculation",
+        "Pension valuation"
+      ]
+    }
+  ]
+}

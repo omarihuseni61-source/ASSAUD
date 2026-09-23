@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-01-15",
+  "version": "3.0",
+  "description": "The official constitution of the Actuarial Science Association of the University of Dar es Salaam (ASAUD). This document outlines the rules, governance, and operations of the association.",
+  "documentUrl": "/documents/constitution.pdf",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Name, Motto and Objectives",
+      "sections": [
+        "The association shall be known as the Actuarial Science Association of the University of Dar es Salaam (ASAUD).",
+        "The motto of the association shall be 'Shaping the Future of Actuarial Science'.",
+        "The objectives of the association are to support actuarial students academically, professionally, and socially."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Membership",
+      "sections": [
+        "Membership is open to all registered students of the University of Dar es Salaam.",
+        "Full membership is granted to students enrolled in the Actuarial Science programme.",
+        "Associate membership is available to students from related disciplines.",
+        "All members must abide by the constitution and code of conduct of the association."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Leadership and Governance",
+      "sections": [
+        "The association shall be led by an Executive Committee elected annually.",
+        "The Executive Committee shall consist of the President, Vice President, Secretary, Treasurer, and other elected officials.",
+        "Leadership terms shall run for one academic year, renewable once.",
+        "Elections shall be held at the end of each academic year in accordance with electoral guidelines."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Meetings",
+      "sections": [
+        "General meetings shall be held at least twice per semester.",
+        "Executive Committee meetings shall be held monthly.",
+        "Special meetings may be convened by the President or by request of at least 10 members.",
+        "Quorum for general meetings shall be 25% of active members."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Financial Matters",
+      "sections": [
+        "The Treasurer shall manage all financial affairs of the association.",
+        "All expenditures must be approved by the Executive Committee.",
+        "Financial records shall be audited annually and presented to members.",
+        "Membership fees, if any, shall be determined by the Executive Committee."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Decision-Making Procedures",
+      "sections": [
+        "Decisions shall be made by consensus where possible.",
+        "Where consensus cannot be reached, decisions shall be made by simple majority vote.",
+        "Constitutional amendments require a two-thirds majority of members present.",
+        "The Executive Committee has authority to make operational decisions."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Amendments",
+      "sections": [
+        "Any member may propose amendments to the constitution in writing to the Secretary.",
+        "Proposed amendments must be circulated to members at least 14 days before voting.",
+        "Amendments require approval by two-thirds of members present at a general meeting.",
+        "Approved amendments take effect immediately upon ratification."
+      ]
+    }
+  ]
+}

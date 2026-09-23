@@ -1,0 +1,117 @@
+{
+  "overview": "ASAUD membership is open to all students at the University of Dar es Salaam who are interested in actuarial science. Membership gives you access to study materials, events, mentorship, and a supportive community.",
+  "benefits": [
+    {
+      "title": "Study Materials",
+      "description": "Full access to our library of lecture slides, tutorials, past papers, and quizzes.",
+      "icon": "book"
+    },
+    {
+      "title": "Career Support",
+      "description": "Mentorship from industry professionals, internship opportunities, and career guidance.",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Networking Events",
+      "description": "Priority access to career fairs, workshops, and networking events.",
+      "icon": "users"
+    },
+    {
+      "title": "Community",
+      "description": "Join a supportive community of actuarial science students across all year levels.",
+      "icon": "heart"
+    },
+    {
+      "title": "Industry Connections",
+      "description": "Direct access to our partner organizations for internships and job opportunities.",
+      "icon": "handshake"
+    },
+    {
+      "title": "Recognition",
+      "description": "Eligibility for ASAUD awards, scholarships, and recognition programs.",
+      "icon": "award"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Full Members",
+      "price": "Free",
+      "description": "For students currently enrolled in the Actuarial Science programme at UDSM.",
+      "eligibility": [
+        "Currently registered in Actuarial Science programme",
+        "Valid UDSM student ID",
+        "Good academic standing"
+      ],
+      "benefits": [
+        "All study materials",
+        "Full event access",
+        "Voting rights in elections",
+        "Eligible for ASAUD awards"
+      ]
+    },
+    {
+      "name": "Associate Members",
+      "price": "Free",
+      "description": "For students from related fields (Mathematics, Statistics, Computer Science, Economics).",
+      "eligibility": [
+        "Enrolled in related programme",
+        "Interest in actuarial science",
+        "Valid UDSM student ID"
+      ],
+      "benefits": [
+        "Access to study materials",
+        "Event participation",
+        "Community access",
+        "Professional development resources"
+      ]
+    },
+    {
+      "name": "Alumni Members",
+      "price": "Free",
+      "description": "For graduates of the Actuarial Science programme at UDSM.",
+      "eligibility": [
+        "Completed degree at UDSM",
+        "Good standing upon graduation"
+      ],
+      "benefits": [
+        "Networking opportunities",
+        "Mentorship role eligibility",
+        "Alumni events",
+        "Industry updates"
+      ]
+    }
+  ],
+  "joinSteps": [
+    {
+      "step": 1,
+      "title": "Fill Registration Form",
+      "description": "Complete the online membership registration form with your details.",
+      "icon": "edit"
+    },
+    {
+      "step": 2,
+      "title": "Verify Your Student Status",
+      "description": "Provide your UDSM student ID number for verification.",
+      "icon": "check"
+    },
+    {
+      "step": 3,
+      "title": "Wait for Approval",
+      "description": "Your application will be reviewed and approved within 2-3 business days.",
+      "icon": "clock"
+    },
+    {
+      "step": 4,
+      "title": "Access Member Resources",
+      "description": "Receive your welcome email and start accessing all member benefits.",
+      "icon": "key"
+    }
+  ],
+  "statistics": {
+    "totalMembers": "500+",
+    "activeMembers": "450+",
+    "graduatedMembers": "150+",
+    "partners": "10+"
+  },
+  "registrationUrl": "https://forms.google.com/register-asaud"
+}

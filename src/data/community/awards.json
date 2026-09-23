@@ -1,0 +1,76 @@
+{
+  "awards": [
+    {
+      "id": "award-001",
+      "title": "Best Student Research Project",
+      "recipient": "Alice Kipchoge",
+      "category": "research",
+      "year": 2025,
+      "description": "Recognition for outstanding predictive modeling research in life insurance.",
+      "image": "/images/community/awards/research-2025.jpg"
+    },
+    {
+      "id": "award-002",
+      "title": "Leadership Excellence Award",
+      "recipient": "John Mwenda",
+      "category": "leadership",
+      "year": 2025,
+      "description": "Recognition for outstanding leadership and contribution to ASAUD.",
+      "image": "/images/community/awards/leadership-2025.jpg"
+    },
+    {
+      "id": "award-003",
+      "title": "Actuarial Exam Success Award",
+      "recipient": "Carol Mutua",
+      "category": "academic",
+      "year": 2025,
+      "description": "Recognition for passing multiple professional actuarial examinations in one year.",
+      "image": "/images/community/awards/exam-2025.jpg"
+    },
+    {
+      "id": "award-004",
+      "title": "East Africa Actuarial Competition Winner",
+      "recipient": "ASAUD Team Alpha",
+      "category": "competition",
+      "year": 2024,
+      "description": "First place in the regional actuarial modeling competition.",
+      "image": "/images/community/awards/competition-2024.jpg"
+    },
+    {
+      "id": "award-005",
+      "title": "Academic Excellence Scholarship",
+      "recipient": "Grace Mushi",
+      "category": "scholarship",
+      "year": 2024,
+      "description": "Full scholarship awarded by East African Insurance Company for outstanding academic performance.",
+      "image": "/images/community/awards/scholarship-2024.jpg"
+    },
+    {
+      "id": "award-006",
+      "title": "Best Data Science Application",
+      "recipient": "Frank Nyerere",
+      "category": "research",
+      "year": 2024,
+      "description": "Recognition for innovative machine learning application in health insurance.",
+      "image": "/images/community/awards/data-science-2024.jpg"
+    },
+    {
+      "id": "award-007",
+      "title": "Professional Qualification Achievement",
+      "recipient": "Three ASAUD Alumni",
+      "category": "professional",
+      "year": 2024,
+      "description": "Three alumni achieved Associate status with the Institute and Faculty of Actuaries.",
+      "image": "/images/community/awards/professional-2024.jpg"
+    },
+    {
+      "id": "award-008",
+      "title": "Community Service Award",
+      "recipient": "ASAUD Outreach Team",
+      "category": "leadership",
+      "year": 2023,
+      "description": "Recognition for outstanding community outreach to secondary schools.",
+      "image": "/images/community/awards/community-2023.jpg"
+    }
+  ]
+}

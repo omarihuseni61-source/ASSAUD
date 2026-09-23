@@ -1,0 +1,87 @@
+{
+  "founded": "2015",
+  "background": "ASAUD was established in 2015 by a group of dedicated actuarial science students who recognized the need for a platform to support their academic journey and professional development. What started as a small study group of 15 students has grown into a vibrant community of over 500 members.",
+  "overview": "Over the years, ASAUD has evolved from a basic study group into a fully-fledged student association with strong industry partnerships, a comprehensive resource library, and a track record of producing successful actuarial professionals.",
+  "timeline": [
+    {
+      "year": "2015",
+      "title": "Association Established",
+      "description": "ASAUD was officially formed with 15 founding members and the first leadership team.",
+      "highlight": true
+    },
+    {
+      "year": "2016",
+      "title": "First Career Fair",
+      "description": "Organized the inaugural actuarial career fair with 5 companies participating.",
+      "highlight": false
+    },
+    {
+      "year": "2017",
+      "title": "Study Materials Library",
+      "description": "Launched the first centralized study materials collection for all year levels.",
+      "highlight": false
+    },
+    {
+      "year": "2018",
+      "title": "Website Launch",
+      "description": "Launched the first ASAUD website to centralize resources and announcements.",
+      "highlight": true
+    },
+    {
+      "year": "2020",
+      "title": "Industry Partnerships",
+      "description": "Established formal partnerships with 3 major insurance companies.",
+      "highlight": false
+    },
+    {
+      "year": "2021",
+      "title": "Mentorship Program",
+      "description": "Launched structured mentorship program connecting students with industry professionals.",
+      "highlight": true
+    },
+    {
+      "year": "2023",
+      "title": "Membership Milestone",
+      "description": "Reached 500+ active members across the university.",
+      "highlight": true
+    },
+    {
+      "year": "2024",
+      "title": "Data & Projects Hub",
+      "description": "Introduced datasets and student project showcases for practical learning.",
+      "highlight": true
+    },
+    {
+      "year": "2026",
+      "title": "Digital Transformation",
+      "description": "Launched modern website with comprehensive resources and interactive features.",
+      "highlight": true
+    }
+  ],
+  "achievements": [
+    {
+      "title": "500+ Active Members",
+      "description": "Building a thriving community of actuarial science students across all year levels.",
+      "year": "2024",
+      "icon": "users"
+    },
+    {
+      "title": "10+ Industry Partners",
+      "description": "Collaborating with leading insurance, pension, and financial institutions.",
+      "year": "2024",
+      "icon": "handshake"
+    },
+    {
+      "title": "50+ Internships Facilitated",
+      "description": "Helping students secure internships through our network and mentorship.",
+      "year": "2023",
+      "icon": "briefcase"
+    },
+    {
+      "title": "100+ Professional Exams Passed",
+      "description": "Supporting students in passing professional actuarial examinations.",
+      "year": "2024",
+      "icon": "award"
+    }
+  ]
+}

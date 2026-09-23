@@ -1,0 +1,185 @@
+{
+  "pathways": [
+    {
+      "id": "path-001",
+      "title": "How to Become a Professional Actuary",
+      "description": "A complete roadmap to becoming a qualified actuary, from university studies to professional designation.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Complete Your Degree",
+          "description": "Earn a Bachelor's degree in Actuarial Science or a related field from a recognized university.",
+          "duration": "3-4 years"
+        },
+        {
+          "step": 2,
+          "title": "Register with a Professional Body",
+          "description": "Join a professional actuarial organization such as ASEA or IFoA to begin your qualification journey.",
+          "duration": "1 month"
+        },
+        {
+          "step": 3,
+          "title": "Pass Professional Exams",
+          "description": "Pass a series of professional examinations covering core actuarial principles and practice areas.",
+          "duration": "3-5 years"
+        },
+        {
+          "step": 4,
+          "title": "Gain Work Experience",
+          "description": "Accumulate practical work experience under qualified actuaries in insurance, pensions, or consulting.",
+          "duration": "3+ years"
+        },
+        {
+          "step": 5,
+          "title": "Obtain Professional Designation",
+          "description": "Achieve Fellowship (FSA/FIA) or Associate (ASA/AIA) status with your professional body.",
+          "duration": "Ongoing"
+        }
+      ]
+    }
+  ],
+  "professionalBodies": [
+    {
+      "id": "pb-001",
+      "name": "Actuarial Society of East Africa (ASEA)",
+      "acronym": "ASEA",
+      "description": "The regional professional body for actuaries in East Africa, providing professional development, ethics guidance, and regulation.",
+      "website": "https://www.asea-actuaries.org",
+      "focus": "East African professional standards, regional networking, and qualification pathways",
+      "region": "East Africa"
+    },
+    {
+      "id": "pb-002",
+      "name": "Institute and Faculty of Actuaries",
+      "acronym": "IFoA",
+      "description": "The oldest and one of the most prestigious actuarial bodies globally, based in the United Kingdom.",
+      "website": "https://www.actuaries.org.uk",
+      "focus": "International qualifications, professional standards, and global recognition",
+      "region": "Global"
+    },
+    {
+      "id": "pb-003",
+      "name": "Society of Actuaries",
+      "acronym": "SOA",
+      "description": "A leading global professional organization for actuaries, based in the United States.",
+      "website": "https://www.soa.org",
+      "focus": "US-based qualifications, research, and professional development",
+      "region": "Global"
+    },
+    {
+      "id": "pb-004",
+      "name": "Casualty Actuarial Society",
+      "acronym": "CAS",
+      "description": "The primary professional organization for property and casualty actuaries.",
+      "website": "https://www.casact.org",
+      "focus": "Property and casualty insurance, general insurance, and risk management",
+      "region": "Global"
+    }
+  ],
+  "careerFields": [
+    {
+      "id": "cf-001",
+      "field": "Life Insurance",
+      "description": "Develop and price life insurance products, manage reserves, and analyze mortality experience.",
+      "responsibilities": [
+        "Product design and pricing",
+        "Reserve calculation and management",
+        "Mortality and morbidity analysis",
+        "Regulatory compliance"
+      ],
+      "icon": "heart",
+      "demand": "High"
+    },
+    {
+      "id": "cf-002",
+      "field": "General Insurance",
+      "description": "Work with property, motor, health, and liability insurance to price risk and manage claims.",
+      "responsibilities": [
+        "Claims reserving",
+        "Rate making and pricing",
+        "Risk assessment and modeling",
+        "Catastrophe modeling"
+      ],
+      "icon": "shield",
+      "demand": "High"
+    },
+    {
+      "id": "cf-003",
+      "field": "Pensions & Benefits",
+      "description": "Design and manage pension schemes, employee benefits, and retirement plans.",
+      "responsibilities": [
+        "Pension scheme valuation",
+        "Benefit design",
+        "Funding strategy",
+        "Regulatory reporting"
+      ],
+      "icon": "briefcase",
+      "demand": "Medium"
+    },
+    {
+      "id": "cf-004",
+      "field": "Investment & Asset Management",
+      "description": "Apply actuarial skills to investment strategy, portfolio management, and financial risk.",
+      "responsibilities": [
+        "Portfolio optimization",
+        "Risk modeling",
+        "Asset-liability matching",
+        "Performance analysis"
+      ],
+      "icon": "trending-up",
+      "demand": "Medium"
+    },
+    {
+      "id": "cf-005",
+      "field": "Data Science & Analytics",
+      "description": "Apply actuarial and statistical techniques to big data, machine learning, and predictive modeling.",
+      "responsibilities": [
+        "Predictive modeling",
+        "Machine learning applications",
+        "Data visualization",
+        "Business intelligence"
+      ],
+      "icon": "database",
+      "demand": "High"
+    },
+    {
+      "id": "cf-006",
+      "field": "Consulting",
+      "description": "Provide actuarial consulting services to a wide range of clients across industries.",
+      "responsibilities": [
+        "Client advisory",
+        "Model review and validation",
+        "Regulatory consulting",
+        "Mergers and acquisitions"
+      ],
+      "icon": "users",
+      "demand": "Medium"
+    },
+    {
+      "id": "cf-007",
+      "field": "Enterprise Risk Management",
+      "description": "Help organizations identify, assess, and manage enterprise-wide risks.",
+      "responsibilities": [
+        "Risk framework design",
+        "Risk assessment",
+        "Regulatory compliance",
+        "Risk reporting"
+      ],
+      "icon": "alert-triangle",
+      "demand": "Growing"
+    },
+    {
+      "id": "cf-008",
+      "field": "Banking & Finance",
+      "description": "Apply actuarial and financial modeling skills in banking, capital markets, and finance.",
+      "responsibilities": [
+        "Credit risk modeling",
+        "Capital adequacy",
+        "Financial modeling",
+        "Stress testing"
+      ],
+      "icon": "dollar-sign",
+      "demand": "Medium"
+    }
+  ]
+}

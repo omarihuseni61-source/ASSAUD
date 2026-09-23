@@ -1,0 +1,159 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Predictive Modeling for Life Insurance Mortality",
+      "description": "Developing machine learning models to predict mortality rates based on socioeconomic factors in Tanzania.",
+      "team": [
+        { "name": "Alice Kipchoge", "role": "Project Lead", "email": "alice.kipchoge@udsm.ac.tz" },
+        { "name": "Bob Mwangi", "role": "Data Analyst", "email": "bob.mwangi@udsm.ac.tz" }
+      ],
+      "academicYear": "2024-2025",
+      "category": "Insurance",
+      "problemStatement": "Current mortality tables do not account for emerging socioeconomic factors in East Africa. This project develops improved predictive models.",
+      "objectives": [
+        "Identify key socioeconomic predictors of mortality",
+        "Develop and validate ML models",
+        "Compare model accuracy with traditional approaches",
+        "Provide recommendations for insurance pricing"
+      ],
+      "methodology": "Obtained mortality data from WHO, applied logistic regression, random forests, and neural networks.",
+      "toolsUsed": ["Python", "Scikit-learn", "Pandas", "R"],
+      "findings": "ML models achieved 89% accuracy, outperforming traditional methods. Age and income are primary predictors.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-001-report.pdf" },
+        { "type": "presentation", "url": "/downloads/projects/proj-001-slides.pdf" },
+        { "type": "code", "url": "https://github.com/asaud/mortality-prediction" }
+      ],
+      "thumbnail": "/images/projects/mortality-prediction.jpg"
+    },
+    {
+      "id": "proj-002",
+      "title": "Claims Frequency Analysis in Motor Insurance",
+      "description": "Statistical analysis of motor insurance claims frequency patterns and their drivers in East Africa.",
+      "team": [
+        { "name": "Carol Mutua", "role": "Project Lead", "email": "carol.mutua@udsm.ac.tz" },
+        { "name": "David Otieno", "role": "Analyst", "email": "david.otieno@udsm.ac.tz" }
+      ],
+      "academicYear": "2024-2025",
+      "category": "Insurance",
+      "problemStatement": "Insurance companies need better understanding of claims frequency patterns to optimize pricing.",
+      "objectives": [
+        "Analyze historical claims data",
+        "Identify frequency patterns and trends",
+        "Develop frequency models",
+        "Recommend pricing adjustments"
+      ],
+      "methodology": "Analyzed 3 years of claims data, applied Poisson and negative binomial regression models.",
+      "toolsUsed": ["R", "Statistical Analysis", "Excel"],
+      "findings": "Age and vehicle type are significant frequency drivers. Seasonal patterns identified.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-002-report.pdf" }
+      ],
+      "thumbnail": "/images/projects/claims-frequency.jpg"
+    },
+    {
+      "id": "proj-003",
+      "title": "Pension Fund Sustainability Analysis",
+      "description": "Analyzing long-term sustainability of defined benefit pension schemes in Tanzania under different economic scenarios.",
+      "team": [
+        { "name": "Eve Mushi", "role": "Project Lead", "email": "eve.mushi@udsm.ac.tz" }
+      ],
+      "academicYear": "2023-2024",
+      "category": "Pensions",
+      "problemStatement": "Many pension schemes face funding challenges due to demographic changes and economic volatility.",
+      "objectives": [
+        "Model pension scheme funding over 30 years",
+        "Analyze impact of demographic changes",
+        "Test sensitivity to economic scenarios",
+        "Recommend sustainable funding strategies"
+      ],
+      "methodology": "Built actuarial model using R, applied stochastic simulations to test scenarios.",
+      "toolsUsed": ["R", "Simulation", "Actuarial Modeling"],
+      "findings": "Current funding levels need adjustment. Recommended gradual contribution increase.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-003-report.pdf" },
+        { "type": "presentation", "url": "/downloads/projects/proj-003-slides.pdf" }
+      ],
+      "thumbnail": "/images/projects/pension-sustainability.jpg"
+    },
+    {
+      "id": "proj-004",
+      "title": "Machine Learning for Health Insurance Fraud Detection",
+      "description": "Building anomaly detection models to identify potentially fraudulent health insurance claims.",
+      "team": [
+        { "name": "Frank Nyerere", "role": "Lead", "email": "frank.nyerere@udsm.ac.tz" },
+        { "name": "Grace Kimaro", "role": "Analyst", "email": "grace.kimaro@udsm.ac.tz" },
+        { "name": "Henry Mwakyusa", "role": "Developer", "email": "henry.mwakyusa@udsm.ac.tz" }
+      ],
+      "academicYear": "2024-2025",
+      "category": "Health Insurance",
+      "problemStatement": "Insurance fraud costs the industry millions annually. Early detection can significantly reduce losses.",
+      "objectives": [
+        "Analyze historical claims for fraud patterns",
+        "Build anomaly detection models",
+        "Compare supervised and unsupervised approaches",
+        "Deploy a prototype detection system"
+      ],
+      "methodology": "Used isolation forests, autoencoders, and gradient boosting on labeled claims data.",
+      "toolsUsed": ["Python", "TensorFlow", "Scikit-learn", "Pandas"],
+      "findings": "Combined approach achieved 82% precision and 76% recall on test data.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-004-report.pdf" },
+        { "type": "code", "url": "https://github.com/asaud/fraud-detection" },
+        { "type": "demo", "url": "https://fraud-demo.asaud.udsm.ac.tz" }
+      ],
+      "thumbnail": "/images/projects/fraud-detection.jpg"
+    },
+    {
+      "id": "proj-005",
+      "title": "Climate Risk Assessment for Agricultural Insurance",
+      "description": "Assessing climate-related risks for agricultural insurance products in Tanzania.",
+      "team": [
+        { "name": "Irene Mwangi", "role": "Lead", "email": "irene.mwangi@udsm.ac.tz" }
+      ],
+      "academicYear": "2023-2024",
+      "category": "General Insurance",
+      "problemStatement": "Climate change is increasing agricultural risk, requiring new insurance products.",
+      "objectives": [
+        "Analyze historical climate data",
+        "Model crop yield distributions",
+        "Price climate-indexed insurance",
+        "Assess reinsurance needs"
+      ],
+      "methodology": "Combined climate data with crop yields, built stochastic models for insurance pricing.",
+      "toolsUsed": ["R", "Climate Data", "Stochastic Modeling"],
+      "findings": "Climate-indexed insurance can provide affordable coverage for smallholder farmers.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-005-report.pdf" }
+      ],
+      "thumbnail": "/images/projects/climate-risk.jpg"
+    },
+    {
+      "id": "proj-006",
+      "title": "Life Insurance Pricing with Big Data",
+      "description": "Leveraging big data sources for more accurate life insurance pricing.",
+      "team": [
+        { "name": "James Mwita", "role": "Lead", "email": "james.mwita@udsm.ac.tz" },
+        { "name": "Kate Ntambi", "role": "Data Scientist", "email": "kate.ntambi@udsm.ac.tz" }
+      ],
+      "academicYear": "2024-2025",
+      "category": "Life Insurance",
+      "problemStatement": "Traditional life insurance pricing uses limited data, missing important risk factors.",
+      "objectives": [
+        "Identify alternative data sources",
+        "Build enhanced pricing models",
+        "Validate against traditional approaches",
+        "Address regulatory considerations"
+      ],
+      "methodology": "Integrated traditional actuarial tables with alternative data sources using GLMs.",
+      "toolsUsed": ["R", "Python", "GLM", "Data Integration"],
+      "findings": "Enhanced models improved pricing accuracy by 12% while maintaining regulatory compliance.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-006-report.pdf" },
+        { "type": "presentation", "url": "/downloads/projects/proj-006-slides.pdf" }
+      ],
+      "thumbnail": "/images/projects/big-data-pricing.jpg"
+    }
+  ]
+}

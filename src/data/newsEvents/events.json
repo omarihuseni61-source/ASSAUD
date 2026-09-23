@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "Actuarial Career Fair 2026",
+      "date": "2026-10-15T09:00:00",
+      "endDate": "2026-10-15T16:00:00",
+      "venue": "UDSM Main Hall Conference Center, Dar es Salaam",
+      "type": "networking",
+      "description": "Meet and connect with industry professionals from leading insurance, pension, and investment companies. Explore internship and graduate opportunities.",
+      "theme": "Shaping the Future of Actuarial Science",
+      "speakers": [
+        {
+          "name": "Dr. Patricia Muthiora",
+          "title": "Chief Actuary, East African Insurance",
+          "bio": "25+ years experience in life insurance and pension management.",
+          "photo": "/images/community/speakers/patricia.jpg"
+        },
+        {
+          "name": "James Kariuki",
+          "title": "Head of Actuarial Division, Bank of Tanzania",
+          "bio": "Regulatory expert on financial sector risk management.",
+          "photo": "/images/community/speakers/james.jpg"
+        }
+      ],
+      "targetAudience": "All actuarial science students, especially 2nd and 3rd year",
+      "capacity": 300,
+      "registrationDeadline": "2026-10-10",
+      "registrationUrl": "https://forms.google.com/register-career-fair",
+      "image": "/images/events/career-fair-2026.jpg",
+      "requirements": ["Updated CV", "Professional attire recommended", "Student ID"]
+    },
+    {
+      "id": "evt-002",
+      "title": "Advanced Probability Workshop",
+      "date": "2026-09-28T14:00:00",
+      "endDate": "2026-09-28T17:00:00",
+      "venue": "Mathematics Building Room 215, UDSM",
+      "type": "workshop",
+      "description": "Intensive workshop on advanced probability theory with applications to insurance and investments. Hands-on problem-solving session.",
+      "theme": "Mastering Probability for Actuarial Practice",
+      "speakers": [
+        {
+          "name": "Prof. David Nkosi",
+          "title": "Mathematics Department, UDSM",
+          "bio": "Specialist in probability and statistical methods.",
+          "photo": "/images/community/speakers/david.jpg"
+        }
+      ],
+      "targetAudience": "2nd and 3rd year actuarial science students",
+      "capacity": 80,
+      "registrationDeadline": "2026-09-25",
+      "registrationUrl": "https://forms.google.com/register-workshop",
+      "image": "/images/events/probability-workshop.jpg",
+      "requirements": ["Basic probability knowledge", "Calculator or laptop", "Notebook"]
+    },
+    {
+      "id": "evt-003",
+      "title": "Industry Mentorship Kickoff",
+      "date": "2026-11-05T10:00:00",
+      "endDate": "2026-11-05T13:00:00",
+      "venue": "UDSM Business School Auditorium",
+      "type": "seminar",
+      "description": "Launch event for the 2026-2027 ASAUD Mentorship Program. Meet your assigned mentor and begin your professional development journey.",
+      "theme": "Bridging Academia and Industry",
+      "speakers": [
+        {
+          "name": "Grace Mushi",
+          "title": "Partnerships Director, ASAUD",
+          "bio": "Coordinator of the ASAUD mentorship program.",
+          "photo": "/images/community/speakers/grace.jpg"
+        },
+        {
+          "name": "Michael Ochieng",
+          "title": "Senior Actuary, Sanlam Life Insurance",
+          "bio": "Industry mentor with 10+ years experience.",
+          "photo": "/images/community/speakers/michael.jpg"
+        }
+      ],
+      "targetAudience": "Mentorship program participants and applicants",
+      "capacity": 120,
+      "registrationDeadline": "2026-11-01",
+      "registrationUrl": "https://forms.google.com/register-mentorship",
+      "image": "/images/events/mentorship-kickoff.jpg",
+      "requirements": ["Accepted mentorship application", "Updated CV"]
+    },
+    {
+      "id": "evt-004",
+      "title": "Data Science for Actuaries Bootcamp",
+      "date": "2026-12-10T09:00:00",
+      "endDate": "2026-12-12T17:00:00",
+      "venue": "UDSM Computer Lab 3",
+      "type": "training",
+      "description": "Three-day intensive bootcamp on Python, R, and machine learning applications for actuarial science.",
+      "theme": "Modern Tools for Modern Actuaries",
+      "speakers": [
+        {
+          "name": "Frank Nyerere",
+          "title": "Data Scientist, ASAUD Alumni",
+          "bio": "Specializes in ML applications for insurance.",
+          "photo": "/images/community/speakers/frank.jpg"
+        }
+      ],
+      "targetAudience": "3rd and 4th year students",
+      "capacity": 40,
+      "registrationDeadline": "2026-12-05",
+      "registrationUrl": "https://forms.google.com/register-bootcamp",
+      "image": "/images/events/data-science-bootcamp.jpg",
+      "requirements": ["Laptop with Python/R installed", "Basic programming knowledge"]
+    },
+    {
+      "id": "evt-005",
+      "title": "Actuarial Research Symposium 2027",
+      "date": "2027-02-20T08:30:00",
+      "endDate": "2027-02-20T17:00:00",
+      "venue": "UDSM Nkrumah Hall",
+      "type": "conference",
+      "description": "Annual research symposium showcasing student research projects and academic achievements in actuarial science.",
+      "theme": "Innovation in Actuarial Science",
+      "speakers": [
+        {
+          "name": "Dr. Jane Doe",
+          "title": "Head of Actuarial Science, UDSM",
+          "bio": "Leading actuarial researcher with international publications.",
+          "photo": "/images/community/speakers/jane.jpg"
+        }
+      ],
+      "targetAudience": "All students, faculty, and industry professionals",
+      "capacity": 200,
+      "registrationDeadline": "2027-02-15",
+      "registrationUrl": "https://forms.google.com/register-symposium",
+      "image": "/images/events/research-symposium.jpg",
+      "requirements": ["Registration confirmation"]
+    }
+  ]
+}

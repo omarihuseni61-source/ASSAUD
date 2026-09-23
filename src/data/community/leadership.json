@@ -1,0 +1,93 @@
+{
+  "currentTerm": "2025-2026",
+  "leaders": [
+    {
+      "id": "lead-001",
+      "name": "John Mwenda",
+      "position": "President",
+      "portfolio": "Overall Association Leadership",
+      "bio": "Final year Actuarial Science student with a passion for student advocacy and actuarial excellence. Led the successful 2025 Career Fair and expanded industry partnerships.",
+      "photo": "/images/community/leadership/john-mwenda.jpg",
+      "email": "president@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 1
+    },
+    {
+      "id": "lead-002",
+      "name": "Sarah Kimani",
+      "position": "Vice President",
+      "portfolio": "Academic Affairs",
+      "bio": "3rd year student dedicated to improving academic resources and mentorship for all year levels.",
+      "photo": "/images/community/leadership/sarah-kimani.jpg",
+      "email": "vp@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 2
+    },
+    {
+      "id": "lead-003",
+      "name": "Michael Ochieng",
+      "position": "Secretary General",
+      "portfolio": "Records & Communications",
+      "bio": "Ensures effective communication between leadership and members and maintains all official records.",
+      "photo": "/images/community/leadership/michael-ochieng.jpg",
+      "email": "secretary@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 3
+    },
+    {
+      "id": "lead-004",
+      "name": "Grace Mushi",
+      "position": "Treasurer",
+      "portfolio": "Financial Management",
+      "bio": "Experienced in budgeting and financial planning. Ensures transparent financial management for all ASAUD activities.",
+      "photo": "/images/community/leadership/grace-mushi.jpg",
+      "email": "treasurer@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 4
+    },
+    {
+      "id": "lead-005",
+      "name": "David Otieno",
+      "position": "Academic Director",
+      "portfolio": "Study Materials & Tutorials",
+      "bio": "Coordinates all academic resources, study materials, and tutorial programs for members.",
+      "photo": "/images/community/leadership/david-otieno.jpg",
+      "email": "academics@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 5
+    },
+    {
+      "id": "lead-006",
+      "name": "Lucy Mwakyusa",
+      "position": "Events Director",
+      "portfolio": "Events & Activities",
+      "bio": "Plans and coordinates all ASAUD events, workshops, career fairs, and networking opportunities.",
+      "photo": "/images/community/leadership/lucy-mwakyusa.jpg",
+      "email": "events@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 6
+    },
+    {
+      "id": "lead-007",
+      "name": "Peter Nyerere",
+      "position": "Partnerships Director",
+      "portfolio": "Industry Relations",
+      "bio": "Builds and maintains relationships with partner organizations, alumni, and industry leaders.",
+      "photo": "/images/community/leadership/peter-nyerere.jpg",
+      "email": "partnerships@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 7
+    },
+    {
+      "id": "lead-008",
+      "name": "Rose Kimaro",
+      "position": "Membership Director",
+      "portfolio": "Member Engagement",
+      "bio": "Manages membership registration, engagement, and community-building activities.",
+      "photo": "/images/community/leadership/rose-kimaro.jpg",
+      "email": "membership@asaud.udsm.ac.tz",
+      "term": "2025-2026",
+      "order": 8
+    }
+  ]
+}

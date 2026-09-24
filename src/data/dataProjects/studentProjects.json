@@ -22,7 +22,7 @@
       "findings": "ML models achieved 89% accuracy, outperforming traditional methods. Age and income are primary predictors.",
       "deliverables": [
         { "type": "report", "url": "/downloads/projects/proj-001-report.pdf" },
-        { "type": "presentation", "url": "/downloads/projects/proj-001-slides.pdf" },
+        { "type": "presentation", "url": "/documents/Bike Sales Dashboard.xlsx" },
         { "type": "code", "url": "https://github.com/asaud/mortality-prediction" }
       ],
       "thumbnail": "/images/projects/hero-bg.jpg"

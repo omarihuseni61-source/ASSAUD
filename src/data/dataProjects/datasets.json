@@ -15,7 +15,7 @@
       "format": "csv",
       "fileSize": "1.2 MB",
       "records": "125,000",
-      "downloadUrl": "/downloads/datasets/mortality-tanzania-2023.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Suitable for life insurance pricing, pension calculations, and mortality analysis",
       "applications": [
         "Life insurance pricing",
@@ -40,7 +40,7 @@
       "format": "xlsx",
       "fileSize": "5.8 MB",
       "records": "48,500",
-      "downloadUrl": "/downloads/datasets/insurance-claims-2023.xlsx",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Analyze claim trends, severities, and develop reserving models",
       "applications": [
         "Claims analysis",
@@ -64,7 +64,7 @@
       "format": "csv",
       "fileSize": "890 KB",
       "records": "42,000",
-      "downloadUrl": "/downloads/datasets/life-tables-east-africa-2024.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Build life insurance products and pension schemes for East African markets",
       "applications": [
         "Life insurance",
@@ -88,7 +88,7 @@
       "format": "csv",
       "fileSize": "3.4 MB",
       "records": "180,000",
-      "downloadUrl": "/downloads/datasets/financial-markets-2024.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Analyze financial instruments and build investment models",
       "applications": [
         "Portfolio analysis",
@@ -112,7 +112,7 @@
       "format": "csv",
       "fileSize": "4.2 MB",
       "records": "95,000",
-      "downloadUrl": "/downloads/datasets/health-claims-2023.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Analyze health claims patterns and develop predictive models",
       "applications": [
         "Health insurance pricing",
@@ -136,7 +136,7 @@
       "format": "csv",
       "fileSize": "2.1 MB",
       "records": "68,000",
-      "downloadUrl": "/downloads/datasets/population-2024.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Understand demographic patterns for product design and market analysis",
       "applications": [
         "Market segmentation",
@@ -160,7 +160,7 @@
       "format": "csv",
       "fileSize": "1.8 MB",
       "records": "25,000",
-      "downloadUrl": "/downloads/datasets/simulated-portfolio-2024.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Practice portfolio optimization and risk-return analysis",
       "applications": [
         "Portfolio optimization",
@@ -184,7 +184,7 @@
       "format": "csv",
       "fileSize": "780 KB",
       "records": "15,000",
-      "downloadUrl": "/downloads/datasets/annuity-mortality-2023.csv",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
       "usageExample": "Analyze annuity mortality experience and build pricing models",
       "applications": [
         "Annuity pricing",

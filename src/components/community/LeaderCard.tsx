@@ -10,7 +10,7 @@ export function LeaderCard({ leader }: LeaderCardProps) {
   return (
     <div className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
       {/* Photo */}
-      <div className="relative h-64 bg-gradient-to-br from-blue-100 to-blue-200 overflow-hidden">
+      <div className="relative h-64 bg-gradient-to-br from-red-100 to-red-200 overflow-hidden">
         <Image
           src={leader.photo}
           alt={leader.name}
@@ -25,7 +25,7 @@ export function LeaderCard({ leader }: LeaderCardProps) {
         <h3 className="text-lg font-bold text-gray-900 mb-1">
           {leader.name}
         </h3>
-        <div className="text-sm font-semibold text-blue-600 mb-1">
+        <div className="text-sm font-semibold text-red-600 mb-1">
           {leader.position}
         </div>
         <div className="text-xs text-gray-500 uppercase tracking-wider mb-4">
@@ -38,7 +38,7 @@ export function LeaderCard({ leader }: LeaderCardProps) {
 
         <a
           href={`mailto:${leader.email}`}
-          className="inline-flex items-center gap-1.5 px-4 py-2 bg-blue-50 text-blue-700 text-xs font-semibold rounded-lg hover:bg-blue-100 transition-colors"
+          className="inline-flex items-center gap-1.5 px-4 py-2 bg-red-50 text-blue-700 text-xs font-semibold rounded-lg hover:bg-red-100 transition-colors"
         >
           <Mail className="w-3.5 h-3.5" />
           Contact

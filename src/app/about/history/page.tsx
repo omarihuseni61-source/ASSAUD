@@ -38,7 +38,7 @@ export default function HistoryPage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full mb-4">
+            <span className="inline-block px-4 py-1.5 bg-red-100 text-red-700 text-sm font-semibold rounded-full mb-4">
               Milestones
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -48,7 +48,7 @@ export default function HistoryPage() {
 
           <div className="max-w-4xl mx-auto relative">
             {/* Vertical Line */}
-            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-blue-200 -translate-x-1/2 hidden md:block" />
+            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-red-500 to-red-200 -translate-x-1/2 hidden md:block" />
 
             <div className="space-y-8">
               {historyData.timeline.map((event, index) => (
@@ -59,7 +59,7 @@ export default function HistoryPage() {
                   }`}
                 >
                   {/* Dot */}
-                  <div className="absolute left-8 md:left-1/2 -translate-x-1/2 top-6 w-4 h-4 rounded-full bg-blue-600 ring-4 ring-blue-100 z-10" />
+                  <div className="absolute left-8 md:left-1/2 -translate-x-1/2 top-6 w-4 h-4 rounded-full bg-red-600 ring-4 ring-red-100 z-10" />
 
                   {/* Content Card */}
                   <div
@@ -67,11 +67,11 @@ export default function HistoryPage() {
                       index % 2 === 0 ? 'md:mr-8' : 'md:col-start-2 md:ml-8'
                     } ${
                       event.highlight
-                        ? 'border-l-4 border-l-blue-500'
+                        ? 'border-l-4 border-l-red-500'
                         : ''
                     }`}
                   >
-                    <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mb-3">
+                    <div className="inline-block px-3 py-1 bg-red-100 text-red-700 rounded-full text-xs font-bold mb-3">
                       {event.year}
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 mb-2">

@@ -13,9 +13,9 @@ const sections = [
     title: 'Upcoming Events',
     description: 'Career fairs, workshops, seminars, and networking opportunities.',
     href: '/news-events/events',
-    color: 'from-blue-500 to-blue-700',
-    bg: 'bg-blue-50',
-    text: 'text-blue-600',
+    color: 'from-red-500 to-red-700',
+    bg: 'bg-red-50',
+    text: 'text-red-600',
   },
   {
     icon: Newspaper,
@@ -31,7 +31,7 @@ const sections = [
 export default function NewsEventsPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
           <span className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold rounded-full mb-5">
             Stay Updated
@@ -39,7 +39,7 @@ export default function NewsEventsPage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl">
             News & Events
           </h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed">
+          <p className="text-lg md:text-xl text-red-100 max-w-3xl leading-relaxed">
             Everything happening at ASAUD — upcoming events and current opportunities.
           </p>
         </div>

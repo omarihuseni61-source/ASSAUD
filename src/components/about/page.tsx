@@ -22,9 +22,9 @@ const sections = [
     description:
       'Discover our identity, vision, mission, objectives, and core values.',
     href: '/about/about-asaud',
-    color: 'from-blue-500 to-blue-700',
-    bg: 'bg-blue-50',
-    text: 'text-blue-600',
+    color: 'from-red-500 to-red-700',
+    bg: 'bg-red-50',
+    text: 'text-red-600',
   },
   {
     icon: History,
@@ -72,7 +72,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
           <span className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold rounded-full mb-5">
             About Us
@@ -80,7 +80,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl">
             About ASAUD
           </h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed">
+          <p className="text-lg md:text-xl text-red-100 max-w-3xl leading-relaxed">
             Learn about the Actuarial Science Association at the University of
             Dar es Salaam — our identity, history, governance, and how to reach us.
           </p>

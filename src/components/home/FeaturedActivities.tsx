@@ -6,7 +6,7 @@ import { formatDate } from '@/utils/formatters';
 import type { FeaturedActivity } from '@/types/home';
 
 const categoryColors: Record<string, string> = {
-  Event: 'bg-blue-100 text-blue-700',
+  Event: 'bg-red-100 text-red-700',
   Workshop: 'bg-purple-100 text-purple-700',
   Project: 'bg-green-100 text-green-700',
 };

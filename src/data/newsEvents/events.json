@@ -14,20 +14,20 @@
           "name": "Dr. Patricia Muthiora",
           "title": "Chief Actuary, East African Insurance",
           "bio": "25+ years experience in life insurance and pension management.",
-          "photo": "/images/community/speakers/patricia.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         },
         {
           "name": "James Kariuki",
           "title": "Head of Actuarial Division, Bank of Tanzania",
           "bio": "Regulatory expert on financial sector risk management.",
-          "photo": "/images/community/speakers/james.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         }
       ],
       "targetAudience": "All actuarial science students, especially 2nd and 3rd year",
       "capacity": 300,
       "registrationDeadline": "2026-10-10",
       "registrationUrl": "https://forms.google.com/register-career-fair",
-      "image": "/images/events/career-fair-2026.jpg",
+      "image": "/images/events/hero-bg.jpg",
       "requirements": ["Updated CV", "Professional attire recommended", "Student ID"]
     },
     {
@@ -44,14 +44,14 @@
           "name": "Prof. David Nkosi",
           "title": "Mathematics Department, UDSM",
           "bio": "Specialist in probability and statistical methods.",
-          "photo": "/images/community/speakers/david.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         }
       ],
       "targetAudience": "2nd and 3rd year actuarial science students",
       "capacity": 80,
       "registrationDeadline": "2026-09-25",
       "registrationUrl": "https://forms.google.com/register-workshop",
-      "image": "/images/events/probability-workshop.jpg",
+      "image": "/images/events/hero-bg.jpg",
       "requirements": ["Basic probability knowledge", "Calculator or laptop", "Notebook"]
     },
     {
@@ -68,20 +68,20 @@
           "name": "Grace Mushi",
           "title": "Partnerships Director, ASAUD",
           "bio": "Coordinator of the ASAUD mentorship program.",
-          "photo": "/images/community/speakers/grace.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         },
         {
           "name": "Michael Ochieng",
           "title": "Senior Actuary, Sanlam Life Insurance",
           "bio": "Industry mentor with 10+ years experience.",
-          "photo": "/images/community/speakers/michael.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         }
       ],
       "targetAudience": "Mentorship program participants and applicants",
       "capacity": 120,
       "registrationDeadline": "2026-11-01",
       "registrationUrl": "https://forms.google.com/register-mentorship",
-      "image": "/images/events/mentorship-kickoff.jpg",
+      "image": "/images/events/hero-bg.jpg",
       "requirements": ["Accepted mentorship application", "Updated CV"]
     },
     {
@@ -98,14 +98,14 @@
           "name": "Frank Nyerere",
           "title": "Data Scientist, ASAUD Alumni",
           "bio": "Specializes in ML applications for insurance.",
-          "photo": "/images/community/speakers/frank.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         }
       ],
       "targetAudience": "3rd and 4th year students",
       "capacity": 40,
       "registrationDeadline": "2026-12-05",
       "registrationUrl": "https://forms.google.com/register-bootcamp",
-      "image": "/images/events/data-science-bootcamp.jpg",
+      "image": "/images/events/hero-bg.jpg",
       "requirements": ["Laptop with Python/R installed", "Basic programming knowledge"]
     },
     {
@@ -122,14 +122,14 @@
           "name": "Dr. Jane Doe",
           "title": "Head of Actuarial Science, UDSM",
           "bio": "Leading actuarial researcher with international publications.",
-          "photo": "/images/community/speakers/jane.jpg"
+          "photo": "/images/events/hero-bg.jpg"
         }
       ],
       "targetAudience": "All students, faculty, and industry professionals",
       "capacity": 200,
       "registrationDeadline": "2027-02-15",
       "registrationUrl": "https://forms.google.com/register-symposium",
-      "image": "/images/events/research-symposium.jpg",
+      "image": "/images/events/hero-bg.jpg",
       "requirements": ["Registration confirmation"]
     }
   ]

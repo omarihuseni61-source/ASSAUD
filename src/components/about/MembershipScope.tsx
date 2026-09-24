@@ -43,7 +43,7 @@ export function MembershipScope({ data }: MembershipScopeProps) {
         <div className="text-center mt-10">
           <Link
             href="/community/membership"
-            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-xl hover:from-red-700 hover:to-red-800 transition-all shadow-lg hover:shadow-xl"
           >
             Learn More About Membership
             <ArrowRight className="w-5 h-5" />

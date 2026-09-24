@@ -7,10 +7,10 @@ import type { EventItem, EventType } from '@/types/newsEvents';
 
 const typeConfig: Record<
   EventType,
-  { label: string; variant: 'blue' | 'green' | 'purple' | 'orange' | 'red' | 'gray' }
+  { label: string; variant: 'maroon' | 'green' | 'purple' | 'orange' | 'red' | 'gray' }
 > = {
   workshop: { label: 'Workshop', variant: 'purple' },
-  seminar: { label: 'Seminar', variant: 'blue' },
+  seminar: { label: 'Seminar', variant: 'maroon' },
   conference: { label: 'Conference', variant: 'red' },
   networking: { label: 'Networking', variant: 'green' },
   competition: { label: 'Competition', variant: 'orange' },
@@ -30,7 +30,7 @@ export function EventCard({ event }: EventCardProps) {
       className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
     >
       {/* Image */}
-      <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200">
+      <div className="relative h-48 overflow-hidden bg-gradient-to-br from-red-100 to-red-200">
         <Image
           src={event.image}
           alt={event.title}

@@ -3,7 +3,7 @@ import { Badge } from '@/components/common/Badge';
 import type { Dataset, DatasetCategory } from '@/types/dataProjects';
 
 const categoryConfig: Record<DatasetCategory, { label: string; variant: any }> = {
-  insurance: { label: 'Insurance', variant: 'blue' },
+  insurance: { label: 'Insurance', variant: 'maroon' },
   claims: { label: 'Claims', variant: 'orange' },
   mortality: { label: 'Mortality', variant: 'purple' },
   financial: { label: 'Financial', variant: 'green' },
@@ -20,17 +20,17 @@ export function DatasetCard({ dataset }: DatasetCardProps) {
   const config = categoryConfig[dataset.category];
 
   return (
-    <div className="group bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-blue-300 transition-all duration-300">
+    <div className="group bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-red-300 transition-all duration-300">
       {/* Header */}
       <div className="flex items-start justify-between mb-4">
-        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white flex-shrink-0">
+        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white flex-shrink-0">
           <Database className="w-6 h-6" />
         </div>
         <Badge variant={config.variant}>{config.label}</Badge>
       </div>
 
       {/* Title */}
-      <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
+      <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-red-600 transition-colors line-clamp-2">
         {dataset.name}
       </h3>
 
@@ -82,7 +82,7 @@ export function DatasetCard({ dataset }: DatasetCardProps) {
       <a
         href={dataset.downloadUrl}
         download
-        className="flex items-center justify-center gap-2 w-full px-4 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+        className="flex items-center justify-center gap-2 w-full px-4 py-2.5 bg-red-600 text-white text-sm font-semibold rounded-lg hover:bg-red-700 transition-colors"
       >
         <Download className="w-4 h-4" />
         Download Dataset

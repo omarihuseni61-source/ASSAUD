@@ -20,13 +20,13 @@ export function PageHeader({
   breadcrumbs,
 }: PageHeaderProps) {
   return (
-    <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+    <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
       <div className="container mx-auto px-4">
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-blue-200 mb-6 flex-wrap">
+        <nav className="flex items-center gap-2 text-sm text-red-200 mb-6 flex-wrap">
           {breadcrumbs.map((crumb, index) => (
             <div key={crumb.href} className="flex items-center gap-2">
-              {index > 0 && <ChevronRight className="w-4 h-4 text-blue-400" />}
+              {index > 0 && <ChevronRight className="w-4 h-4 text-red-400" />}
               {index === breadcrumbs.length - 1 ? (
                 <span className="text-white font-medium">{crumb.label}</span>
               ) : (
@@ -54,7 +54,7 @@ export function PageHeader({
         </h1>
 
         {/* Description */}
-        <p className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed">
+        <p className="text-lg md:text-xl text-red-100 max-w-3xl leading-relaxed">
           {description}
         </p>
       </div>

@@ -20,9 +20,9 @@ const sections = [
     description:
       'Learn about the 4-year programme, its structure, courses by year, and requirements.',
     href: '/academics/actuarial-science',
-    color: 'from-blue-500 to-blue-700',
-    bg: 'bg-blue-50',
-    text: 'text-blue-600',
+    color: 'from-red-500 to-red-700',
+    bg: 'bg-red-50',
+    text: 'text-red-600',
   },
   {
     icon: BookOpen,
@@ -49,7 +49,7 @@ const sections = [
 export default function AcademicsPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
           <span className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold rounded-full mb-5">
             Educational Hub
@@ -57,7 +57,7 @@ export default function AcademicsPage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl">
             Academics at ASAUD
           </h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl leading-relaxed">
+          <p className="text-lg md:text-xl text-red-100 max-w-3xl leading-relaxed">
             Your complete academic companion — programme details, study
             resources, and guidance toward a professional actuarial career.
           </p>

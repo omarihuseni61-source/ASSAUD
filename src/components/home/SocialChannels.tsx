@@ -8,13 +8,13 @@ export function SocialChannels() {
   const socials = socialData.social;
 
   return (
-    <section className="py-16 bg-blue-600">
+    <section className="py-16 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
             Connect With Us
           </h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-gray-300 text-lg">
             Follow ASAUD on our official channels for the latest updates,
             events, and opportunities.
           </p>

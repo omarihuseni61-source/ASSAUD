@@ -86,7 +86,7 @@ export default function NewsPage() {
                   className={cn(
                     'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
                     type === t.value
-                      ? 'bg-blue-600 text-white shadow-md'
+                      ? 'bg-red-600 text-white shadow-md'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   )}
                 >

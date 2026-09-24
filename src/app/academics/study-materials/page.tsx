@@ -97,7 +97,7 @@ export default function StudyMaterialsPage() {
                   onChange={(e) =>
                     setYear(e.target.value === 'all' ? 'all' : Number(e.target.value))
                   }
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-red-500 transition-all"
                 >
                   <option value="all">All Years</option>
                   <option value={1}>Year 1</option>
@@ -119,7 +119,7 @@ export default function StudyMaterialsPage() {
                       e.target.value === 'all' ? 'all' : Number(e.target.value)
                     )
                   }
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-red-500 transition-all"
                 >
                   <option value="all">All Semesters</option>
                   <option value={1}>Semester 1</option>

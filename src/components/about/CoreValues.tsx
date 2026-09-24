@@ -25,9 +25,9 @@ export function CoreValues({ values }: CoreValuesProps) {
           {values.map((value, index) => (
             <div
               key={index}
-              className="group text-center p-6 rounded-2xl bg-gradient-to-b from-gray-50 to-white border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all"
+              className="group text-center p-6 rounded-2xl bg-gradient-to-b from-gray-50 to-white border border-gray-100 hover:border-red-200 hover:shadow-lg transition-all"
             >
-              <div className="w-12 h-12 mx-auto bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform">
+              <div className="w-12 h-12 mx-auto bg-gradient-to-br from-red-500 to-red-700 rounded-xl flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform">
                 <Icon name={value.icon} className="w-6 h-6" />
               </div>
               <h3 className="font-bold text-gray-900 text-sm mb-1.5">

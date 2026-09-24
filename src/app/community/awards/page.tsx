@@ -72,7 +72,7 @@ export default function AwardsPage() {
                   className={cn(
                     'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
                     activeCategory === cat.value
-                      ? 'bg-blue-600 text-white shadow-md'
+                      ? 'bg-red-600 text-white shadow-md'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   )}
                 >
@@ -91,7 +91,7 @@ export default function AwardsPage() {
                   className={cn(
                     'px-3 py-1.5 rounded-lg text-xs font-medium transition-colors',
                     year === 'all'
-                      ? 'bg-blue-600 text-white'
+                      ? 'bg-red-600 text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   )}
                 >
@@ -104,7 +104,7 @@ export default function AwardsPage() {
                     className={cn(
                       'px-3 py-1.5 rounded-lg text-xs font-medium transition-colors',
                       year === y
-                        ? 'bg-blue-600 text-white'
+                        ? 'bg-red-600 text-white'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                     )}
                   >

@@ -12,14 +12,14 @@ export function CourseCard({ course, materialCount }: CourseCardProps) {
   return (
     <Link
       href={`/academics/study-materials/${course.id}`}
-      className="group block bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-blue-300 transition-all duration-300"
+      className="group block bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-red-300 transition-all duration-300"
     >
       <div className="flex items-start justify-between mb-3">
-        <div className="inline-flex items-center px-2.5 py-1 bg-blue-50 text-blue-700 rounded-lg text-xs font-mono font-bold">
+        <div className="inline-flex items-center px-2.5 py-1 bg-red-50 text-red-700 rounded-lg text-xs font-mono font-bold">
           {course.code}
         </div>
         <div className="flex gap-1.5">
-          <Badge variant="blue">Y{course.level}</Badge>
+          <Badge variant="maroon">Y{course.level}</Badge>
           <Badge variant="green">S{course.semester}</Badge>
         </div>
       </div>

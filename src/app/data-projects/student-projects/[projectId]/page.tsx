@@ -25,7 +25,7 @@ const deliverableConfig: Record<
   Deliverable['type'],
   { icon: any; label: string; color: string }
 > = {
-  report: { icon: FileText, label: 'Report', color: 'bg-blue-100 text-blue-700' },
+  report: { icon: FileText, label: 'Report', color: 'bg-red-100 text-red-700' },
   presentation: { icon: Presentation, label: 'Slides', color: 'bg-purple-100 text-purple-700' },
   code: { icon: Code, label: 'Code', color: 'bg-green-100 text-green-700' },
   demo: { icon: Monitor, label: 'Demo', color: 'bg-orange-100 text-orange-700' },
@@ -48,9 +48,9 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
-          <nav className="flex items-center gap-2 text-sm text-blue-200 mb-6 flex-wrap">
+          <nav className="flex items-center gap-2 text-sm text-red-200 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link>
             <ChevronRight className="w-4 h-4" />
             <Link href="/data-projects" className="hover:text-white">Data & Projects</Link>
@@ -60,13 +60,13 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             <span className="text-white font-medium">{project.title.substring(0, 30)}...</span>
           </nav>
 
-          <Badge variant="blue" className="mb-5">{project.category}</Badge>
+          <Badge variant="maroon" className="mb-5">{project.category}</Badge>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-4xl">
             {project.title}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-4 text-sm text-blue-100">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-red-100">
             <span className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4" />
               {project.academicYear}
@@ -82,7 +82,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       {/* Image */}
       <section className="bg-gray-50 py-10">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200 shadow-lg">
+          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-red-100 to-red-200 shadow-lg">
             <Image
               src={project.thumbnail}
               alt={project.title}
@@ -122,7 +122,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 <ul className="space-y-2.5">
                   {project.objectives.map((obj, i) => (
                     <li key={i} className="flex items-start gap-3 text-gray-700">
-                      <span className="w-6 h-6 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                      <span className="w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
                         {i + 1}
                       </span>
                       <span className="leading-relaxed">{obj}</span>
@@ -154,20 +154,20 @@ export default async function ProjectDetailPage({ params }: PageProps) {
               {/* Team */}
               <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6">
                 <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Users className="w-4 h-4 text-blue-600" />
+                  <Users className="w-4 h-4 text-red-600" />
                   Project Team
                 </h3>
                 <div className="space-y-4">
                   {project.team.map((member, i) => (
                     <div key={i} className="flex items-start gap-3">
-                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
+                      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-red-500 to-red-700 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
                         {member.name.split(' ').map((n) => n[0]).join('').substring(0, 2)}
                       </div>
                       <div className="min-w-0">
                         <div className="font-semibold text-gray-900 text-sm">
                           {member.name}
                         </div>
-                        <div className="text-xs text-blue-600">{member.role}</div>
+                        <div className="text-xs text-red-600">{member.role}</div>
                         <a
                           href={`mailto:${member.email}`}
                           className="text-xs text-gray-500 hover:text-blue-600 truncate flex items-center gap-1 mt-0.5"

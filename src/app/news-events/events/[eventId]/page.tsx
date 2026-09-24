@@ -22,10 +22,10 @@ const eventsData = eventsDataRaw as { events: EventItem[] };
 
 const typeConfig: Record<
   EventType,
-  { label: string; variant: 'blue' | 'green' | 'purple' | 'orange' | 'red' | 'gray' }
+  { label: string; variant: 'maroon' | 'green' | 'purple' | 'orange' | 'red' | 'gray' }
 > = {
   workshop: { label: 'Workshop', variant: 'purple' },
-  seminar: { label: 'Seminar', variant: 'blue' },
+  seminar: { label: 'Seminar', variant: 'maroon' },
   conference: { label: 'Conference', variant: 'red' },
   networking: { label: 'Networking', variant: 'green' },
   competition: { label: 'Competition', variant: 'orange' },
@@ -56,9 +56,9 @@ export default async function EventDetailPage({ params }: PageProps) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
-          <nav className="flex items-center gap-2 text-sm text-blue-200 mb-6 flex-wrap">
+          <nav className="flex items-center gap-2 text-sm text-red-200 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link>
             <ChevronRight className="w-4 h-4" />
             <Link href="/news-events" className="hover:text-white">News & Events</Link>
@@ -77,11 +77,11 @@ export default async function EventDetailPage({ params }: PageProps) {
             {event.title}
           </h1>
 
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl leading-relaxed">
+          <p className="text-lg text-red-100 mb-6 max-w-3xl leading-relaxed">
             {event.description}
           </p>
 
-          <div className="flex flex-wrap gap-4 text-sm text-blue-100">
+          <div className="flex flex-wrap gap-4 text-sm text-red-100">
             <span className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4" />
               {formatDate(event.date, 'EEEE, MMMM dd, yyyy')}
@@ -105,7 +105,7 @@ export default async function EventDetailPage({ params }: PageProps) {
       {/* Image */}
       <section className="bg-gray-50 py-10">
         <div className="container mx-auto px-4 max-w-5xl">
-          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200 shadow-lg">
+          <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-red-100 to-red-200 shadow-lg">
             <Image
               src={event.image}
               alt={event.title}
@@ -123,8 +123,8 @@ export default async function EventDetailPage({ params }: PageProps) {
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
               {/* Theme */}
-              <div className="bg-blue-50 rounded-2xl border border-blue-100 p-6">
-                <div className="text-xs font-semibold text-blue-700 uppercase tracking-wider mb-1">
+              <div className="bg-red-50 rounded-2xl border border-red-100 p-6">
+                <div className="text-xs font-semibold text-red-700 uppercase tracking-wider mb-1">
                   Theme
                 </div>
                 <div className="text-lg font-bold text-gray-900">
@@ -144,14 +144,14 @@ export default async function EventDetailPage({ params }: PageProps) {
                         key={i}
                         className="bg-white rounded-xl border border-gray-200 p-5 flex items-start gap-4"
                       >
-                        <div className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 text-white flex items-center justify-center font-bold flex-shrink-0">
+                        <div className="w-14 h-14 rounded-full bg-gradient-to-br from-red-500 to-red-700 text-white flex items-center justify-center font-bold flex-shrink-0">
                           {speaker.name.split(' ').map((n) => n[0]).join('').substring(0, 2)}
                         </div>
                         <div>
                           <div className="font-bold text-gray-900">
                             {speaker.name}
                           </div>
-                          <div className="text-sm text-blue-600 mb-1">
+                          <div className="text-sm text-red-600 mb-1">
                             {speaker.title}
                           </div>
                           <p className="text-sm text-gray-600 leading-relaxed">
@@ -278,7 +278,7 @@ export default async function EventDetailPage({ params }: PageProps) {
                       href={event.registrationUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all shadow-md hover:shadow-lg"
+                      className="flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-xl hover:from-red-700 hover:to-red-800 transition-all shadow-md hover:shadow-lg"
                     >
                       Register Now
                       <ExternalLink className="w-4 h-4" />

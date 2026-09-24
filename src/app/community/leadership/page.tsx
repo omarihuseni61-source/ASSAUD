@@ -33,11 +33,11 @@ export default function LeadershipPage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="flex items-center justify-center gap-3 mb-10">
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center">
               <Users className="w-6 h-6" />
             </div>
             <div>
-              <div className="text-xs font-semibold text-blue-600 uppercase tracking-wider">
+              <div className="text-xs font-semibold text-red-600 uppercase tracking-wider">
                 Term
               </div>
               <div className="text-lg font-bold text-gray-900">

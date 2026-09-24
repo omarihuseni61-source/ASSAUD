@@ -21,15 +21,15 @@ const typeConfig: Record<
   NewsType,
   {
     label: string;
-    variant: 'blue' | 'green' | 'purple' | 'orange' | 'red' | 'gray';
+    variant: 'maroon' | 'green' | 'purple' | 'orange' | 'red' | 'gray';
     icon: React.ComponentType<{ className?: string }>;
   }
 > = {
-  announcement: { label: 'Announcement', variant: 'blue', icon: Megaphone },
+  announcement: { label: 'Announcement', variant: 'maroon', icon: Megaphone },
   internship: { label: 'Internship', variant: 'orange', icon: Briefcase },
   scholarship: { label: 'Scholarship', variant: 'green', icon: GraduationCap },
   competition: { label: 'Competition', variant: 'purple', icon: Award },
-  mentorship: { label: 'Mentorship', variant: 'blue', icon: Users },
+  mentorship: { label: 'Mentorship', variant: 'maroon', icon: Users },
   training: { label: 'Training', variant: 'purple', icon: BookOpen },
   career: { label: 'Career', variant: 'green', icon: TrendingUp },
   achievement: { label: 'Achievement', variant: 'red', icon: Award },
@@ -50,7 +50,7 @@ export function NewsCard({ item }: NewsCardProps) {
       className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col"
     >
       {/* Image */}
-      <div className="relative h-44 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200">
+      <div className="relative h-44 overflow-hidden bg-gradient-to-br from-red-100 to-red-200">
         <Image
           src={item.image}
           alt={item.title}

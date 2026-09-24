@@ -20,7 +20,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-xl">
+              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white font-bold text-xl">
                 A
               </div>
               <div>
@@ -40,7 +40,7 @@ export function Footer() {
             {/* Contact Info */}
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                <Mail className="w-4 h-4 text-red-400 flex-shrink-0" />
                 <a
                   href={`mailto:${siteConfig.contactEmail}`}
                   className="hover:text-white transition-colors"
@@ -49,11 +49,11 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                <Phone className="w-4 h-4 text-red-400 flex-shrink-0" />
                 <span>{siteConfig.phone}</span>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
                 <span>University of Dar es Salaam, Tanzania</span>
               </li>
             </ul>
@@ -71,7 +71,7 @@ export function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={platform}
-                      className="w-9 h-9 rounded-lg bg-gray-800 hover:bg-blue-600 flex items-center justify-center transition-colors"
+                      className="w-9 h-9 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors"
                     >
                       <Icon className="w-4 h-4" />
                     </a>

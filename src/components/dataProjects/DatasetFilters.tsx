@@ -35,8 +35,8 @@ export function DatasetFilters({
           className={cn(
             'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
             activeCategory === cat.value
-              ? 'bg-blue-600 text-white shadow-md'
-              : 'bg-white text-gray-700 border border-gray-200 hover:border-blue-300 hover:text-blue-600'
+              ? 'bg-red-600 text-white shadow-md'
+              : 'bg-white text-gray-700 border border-gray-200 hover:border-red-300 hover:text-red-600'
           )}
         >
           {cat.label}

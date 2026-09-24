@@ -22,10 +22,10 @@ const colorMap: Record<
   { bg: string; text: string; border: string; gradient: string }
 > = {
   blue: {
-    bg: 'bg-blue-50',
-    text: 'text-blue-600',
-    border: 'border-blue-200',
-    gradient: 'from-blue-500 to-blue-700',
+    bg: 'bg-red-50',
+    text: 'text-red-600',
+    border: 'border-red-200',
+    gradient: 'from-red-500 to-red-700',
   },
   green: {
     bg: 'bg-green-50',
@@ -55,7 +55,7 @@ export function QuickAccess() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-red-100 text-red-700 text-sm font-semibold rounded-full mb-4">
             Explore ASAUD
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

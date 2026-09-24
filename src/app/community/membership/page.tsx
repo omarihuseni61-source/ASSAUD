@@ -66,7 +66,7 @@ export default function MembershipPage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full mb-4">
+            <span className="inline-block px-4 py-1.5 bg-red-100 text-red-700 text-sm font-semibold rounded-full mb-4">
               Member Benefits
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -83,7 +83,7 @@ export default function MembershipPage() {
                 key={benefit.title}
                 className="bg-white rounded-2xl border border-gray-200 p-7 hover:shadow-xl hover:-translate-y-1 transition-all"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center text-white mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-700 rounded-xl flex items-center justify-center text-white mb-4">
                   <Icon name={benefit.icon} className="w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">{benefit.title}</h3>
@@ -112,7 +112,7 @@ export default function MembershipPage() {
             {membershipData.categories.map((cat) => (
               <div
                 key={cat.name}
-                className="bg-gradient-to-b from-blue-50 to-white rounded-2xl border border-blue-100 p-7 hover:shadow-xl hover:-translate-y-1 transition-all"
+                className="bg-gradient-to-b from-red-50 to-white rounded-2xl border border-red-100 p-7 hover:shadow-xl hover:-translate-y-1 transition-all"
               >
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-gray-900">{cat.name}</h3>
@@ -132,7 +132,7 @@ export default function MembershipPage() {
                   <ul className="space-y-1.5">
                     {cat.eligibility.map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-xs text-gray-700">
-                        <span className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0 mt-1.5" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-1.5" />
                         {item}
                       </li>
                     ))}
@@ -176,7 +176,7 @@ export default function MembershipPage() {
                 key={step.step}
                 className="text-center bg-white rounded-2xl border border-gray-200 p-6"
               >
-                <div className="w-14 h-14 mx-auto bg-gradient-to-br from-blue-500 to-blue-700 rounded-full text-white flex items-center justify-center text-xl font-bold mb-4">
+                <div className="w-14 h-14 mx-auto bg-gradient-to-br from-red-500 to-red-700 rounded-full text-white flex items-center justify-center text-xl font-bold mb-4">
                   {step.step}
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2 text-sm">
@@ -194,7 +194,7 @@ export default function MembershipPage() {
               href={membershipData.registrationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold rounded-xl hover:from-red-700 hover:to-red-800 transition-all shadow-lg hover:shadow-xl"
             >
               Register Now
               <ArrowRight className="w-5 h-5" />

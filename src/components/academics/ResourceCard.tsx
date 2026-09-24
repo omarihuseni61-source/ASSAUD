@@ -6,7 +6,7 @@ const typeConfig: Record<
   MaterialResource['type'],
   { label: string; color: string; bg: string }
 > = {
-  lecture: { label: 'Lecture', color: 'text-blue-700', bg: 'bg-blue-100' },
+  lecture: { label: 'Lecture', color: 'text-red-700', bg: 'bg-red-100' },
   tutorial: { label: 'Tutorial', color: 'text-green-700', bg: 'bg-green-100' },
   pastpaper: { label: 'Past Paper', color: 'text-orange-700', bg: 'bg-orange-100' },
   quiz: { label: 'Quiz', color: 'text-purple-700', bg: 'bg-purple-100' },
@@ -20,7 +20,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   const config = typeConfig[resource.type];
 
   return (
-    <div className="group bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:border-blue-200 transition-all">
+    <div className="group bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:border-red-200 transition-all">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-lg ${config.bg} ${config.color} flex items-center justify-center flex-shrink-0`}>
           <FileText className="w-6 h-6" />
@@ -33,7 +33,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
             </span>
           </div>
 
-          <h3 className="font-semibold text-gray-900 text-sm mb-1 group-hover:text-blue-600 transition-colors">
+          <h3 className="font-semibold text-gray-900 text-sm mb-1 group-hover:text-red-600 transition-colors">
             {resource.title}
           </h3>
 
@@ -56,7 +56,7 @@ export function ResourceCard({ resource }: ResourceCardProps) {
         <a
           href={resource.downloadUrl}
           download
-          className="flex-shrink-0 w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"
+          className="flex-shrink-0 w-10 h-10 rounded-lg bg-red-600 text-white flex items-center justify-center hover:bg-red-700 transition-colors"
           aria-label={`Download ${resource.title}`}
         >
           <Download className="w-4 h-4" />

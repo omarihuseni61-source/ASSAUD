@@ -66,10 +66,10 @@ export default async function CourseDetailPage({ params }: PageProps) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 pt-32 pb-16">
+      <section className="bg-gradient-to-br from-red-950 via-red-900 to-red-800 pt-32 pb-16">
         <div className="container mx-auto px-4">
           {/* Breadcrumbs */}
-          <nav className="flex items-center gap-2 text-sm text-blue-200 mb-6 flex-wrap">
+          <nav className="flex items-center gap-2 text-sm text-red-200 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
@@ -111,7 +111,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
             </span>
           </div>
 
-          <p className="text-lg text-blue-100 max-w-3xl leading-relaxed">
+          <p className="text-lg text-red-100 max-w-3xl leading-relaxed">
             {course.description}
           </p>
         </div>
@@ -125,7 +125,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
             <div className="lg:col-span-2 space-y-6">
               <div className="bg-gray-50 rounded-2xl border border-gray-100 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-9 h-9 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center">
+                  <div className="w-9 h-9 bg-red-100 text-red-600 rounded-lg flex items-center justify-center">
                     <Target className="w-5 h-5" />
                   </div>
                   <h2 className="text-xl font-bold text-gray-900">
@@ -138,7 +138,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
                       key={i}
                       className="flex items-start gap-2.5 text-sm text-gray-700"
                     >
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0 mt-2" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0 mt-2" />
                       {obj}
                     </li>
                   ))}
@@ -256,7 +256,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
                       <h3 className="text-xl font-bold text-gray-900">
                         {typeLabels[type]}
                       </h3>
-                      <Badge variant="blue">{resources.length}</Badge>
+                      <Badge variant="maroon">{resources.length}</Badge>
                     </div>
                     <div className="space-y-3">
                       {resources.map((resource) => (

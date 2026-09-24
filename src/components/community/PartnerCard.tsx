@@ -4,7 +4,7 @@ import { Badge } from '@/components/common/Badge';
 import type { Partner, PartnerType } from '@/types/community';
 
 const typeConfig: Record<PartnerType, { label: string; variant: any }> = {
-  corporate: { label: 'Corporate', variant: 'blue' },
+  corporate: { label: 'Corporate', variant: 'maroon' },
   government: { label: 'Government', variant: 'red' },
   educational: { label: 'Educational', variant: 'green' },
   professional: { label: 'Professional', variant: 'purple' },
@@ -23,7 +23,7 @@ export function PartnerCard({ partner }: PartnerCardProps) {
       href={partner.website}
       target="_blank"
       rel="noopener noreferrer"
-      className="group bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-blue-300 transition-all duration-300"
+      className="group bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-xl hover:-translate-y-1 hover:border-red-300 transition-all duration-300"
     >
       {/* Header */}
       <div className="flex items-start justify-between mb-4">

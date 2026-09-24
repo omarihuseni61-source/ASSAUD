@@ -10,7 +10,7 @@ const typeConfig: Record<
 > = {
   academic: {
     icon: GraduationCap,
-    color: 'bg-blue-100 text-blue-700',
+    color: 'bg-red-100 text-red-700',
     label: 'Academic',
   },
   opportunity: {
@@ -63,7 +63,7 @@ export function LatestUpdates() {
                 <Link
                   key={update.id}
                   href={update.link}
-                  className="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-blue-300 transition-all"
+                  className="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-red-300 transition-all"
                 >
                   <div className="flex items-start gap-4">
                     {/* Icon */}

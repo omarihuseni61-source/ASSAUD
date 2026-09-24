@@ -9,7 +9,7 @@
     {
       "id": "nav-about",
       "label": "About",
-      "href": "/about",
+      "href": "/about/about-asaud",
       "icon": "info",
       "subItems": [
         { "label": "About ASAUD", "href": "/about/about-asaud" },

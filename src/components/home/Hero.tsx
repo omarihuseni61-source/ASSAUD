@@ -19,11 +19,11 @@ export function Hero() {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-950/95 via-blue-900/90 to-blue-800/85" />
+        <div className="absolute inset-0 bg-gradient-to-br from-red-950/95 via-red-900/90 to-red-800/85" />
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl -z-10" />
+      <div className="absolute top-20 right-10 w-72 h-72 bg-red-500/20 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -z-10" />
 
       <div className="container mx-auto px-4">
@@ -41,7 +41,7 @@ export function Hero() {
               {data.title}
             </h1>
 
-            <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-red-100 mb-8 max-w-2xl leading-relaxed">
               {data.description}
             </p>
 
@@ -49,7 +49,7 @@ export function Hero() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href={data.cta.primary.link}
-                className="group inline-flex items-center gap-2 px-7 py-3.5 bg-white text-blue-700 font-semibold rounded-xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
+                className="group inline-flex items-center gap-2 px-7 py-3.5 bg-white text-blue-700 font-semibold rounded-xl hover:bg-red-50 transition-all shadow-lg hover:shadow-xl"
               >
                 {data.cta.primary.text}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="lg:col-span-5">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-8 shadow-2xl">
               <h3 className="text-white font-semibold text-lg mb-6 flex items-center gap-2">
-                <span className="w-1 h-6 bg-blue-400 rounded-full" />
+                <span className="w-1 h-6 bg-red-400 rounded-full" />
                 ASAUD at a Glance
               </h3>
               <div className="grid grid-cols-2 gap-6">
@@ -77,7 +77,7 @@ export function Hero() {
                     <div className="text-3xl md:text-4xl font-bold text-white mb-1">
                       {stat.value}
                     </div>
-                    <div className="text-sm text-blue-200">
+                    <div className="text-sm text-red-200">
                       {stat.label}
                     </div>
                   </div>

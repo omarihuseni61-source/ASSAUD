@@ -15,7 +15,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
     >
       {/* Image */}
-      <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200">
+      <div className="relative h-48 overflow-hidden bg-gradient-to-br from-red-100 to-red-200">
         <Image
           src={project.thumbnail}
           alt={project.title}
@@ -25,7 +25,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         <div className="absolute top-4 left-4">
-          <Badge variant="blue">{project.category}</Badge>
+          <Badge variant="maroon">{project.category}</Badge>
         </div>
         <div className="absolute bottom-4 left-4 flex items-center gap-1.5 text-white text-xs">
           <Calendar className="w-3.5 h-3.5" />

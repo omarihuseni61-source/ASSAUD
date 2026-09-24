@@ -10,7 +10,7 @@ export function Objectives({ objectives }: ObjectivesProps) {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-red-100 text-red-700 text-sm font-semibold rounded-full mb-4">
             Our Objectives
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -27,7 +27,7 @@ export function Objectives({ objectives }: ObjectivesProps) {
               key={index}
               className="group bg-white rounded-2xl border border-gray-200 p-7 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-gradient-to-br from-red-500 to-red-700 rounded-xl flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform">
                 <Icon name={objective.icon} className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">

@@ -25,7 +25,7 @@
         { "type": "presentation", "url": "/downloads/projects/proj-001-slides.pdf" },
         { "type": "code", "url": "https://github.com/asaud/mortality-prediction" }
       ],
-      "thumbnail": "/images/projects/mortality-prediction.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     },
     {
       "id": "proj-002",
@@ -50,7 +50,7 @@
       "deliverables": [
         { "type": "report", "url": "/downloads/projects/proj-002-report.pdf" }
       ],
-      "thumbnail": "/images/projects/claims-frequency.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     },
     {
       "id": "proj-003",
@@ -75,7 +75,7 @@
         { "type": "report", "url": "/downloads/projects/proj-003-report.pdf" },
         { "type": "presentation", "url": "/downloads/projects/proj-003-slides.pdf" }
       ],
-      "thumbnail": "/images/projects/pension-sustainability.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     },
     {
       "id": "proj-004",
@@ -103,7 +103,7 @@
         { "type": "code", "url": "https://github.com/asaud/fraud-detection" },
         { "type": "demo", "url": "https://fraud-demo.asaud.udsm.ac.tz" }
       ],
-      "thumbnail": "/images/projects/fraud-detection.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     },
     {
       "id": "proj-005",
@@ -127,7 +127,7 @@
       "deliverables": [
         { "type": "report", "url": "/downloads/projects/proj-005-report.pdf" }
       ],
-      "thumbnail": "/images/projects/climate-risk.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     },
     {
       "id": "proj-006",
@@ -153,7 +153,7 @@
         { "type": "report", "url": "/downloads/projects/proj-006-report.pdf" },
         { "type": "presentation", "url": "/downloads/projects/proj-006-slides.pdf" }
       ],
-      "thumbnail": "/images/projects/big-data-pricing.jpg"
+      "thumbnail": "/images/projects/hero-bg.jpg"
     }
   ]
 }

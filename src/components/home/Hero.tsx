@@ -31,7 +31,7 @@ export function Hero() {
           {/* Text Content */}
           <div className="lg:col-span-7 text-white">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+              
               <span className="text-sm font-medium">
                 {data.subtitle}
               </span>

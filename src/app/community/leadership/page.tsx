@@ -9,7 +9,7 @@ const leadershipData = leadershipDataRaw as LeadershipData;
 
 export const metadata: Metadata = {
   title: 'Leadership',
-  description: 'Meet the current ASAUD executive leadership team.',
+  description: 'Meet the current ASSAUD executive leadership team.',
 };
 
 export default function LeadershipPage() {

@@ -69,7 +69,7 @@
         "Recommend sustainable funding strategies"
       ],
       "methodology": "Built actuarial model using R, applied stochastic simulations to test scenarios.",
-      "toolsUsed": ["R", "Simulation", "Actuarial Modeling"],
+      "toolsUsed": ["Excel", "Simulation", "Actuarial Modeling"],
       "findings": "Current funding levels need adjustment. Recommended gradual contribution increase.",
       "deliverables": [
         { "type": "report", "url": "/downloads/projects/proj-003-report.pdf" },
@@ -154,6 +154,33 @@
         { "type": "presentation", "url": "/downloads/projects/proj-006-slides.pdf" }
       ],
       "thumbnail": "/images/projects/hero-bg.jpg"
+    },
+    {
+      "id": "proj-007",
+      "title": "Jubille Insurance Pricing with Big Data",
+      "description": "big data sources for more accurate life insurance pricing.",
+      "team": [
+        { "name": "shehe", "role": "Lead", "email": "james.mwita@udsm.ac.tz" },
+        { "name": "Kate Ntambi", "role": "Data Scientist", "email": "kate.ntambi@udsm.ac.tz" }
+      ],
+      "academicYear": "2024-2025",
+      "category": "Car Insurance & drugs",
+      "problemStatement": "Traditional life insurance pricing uses limited data, missing important risk factors.",
+      "objectives": [
+        "Identify alternative data sources",
+        "Build enhanced pricing models",
+        "Validate against traditional approaches",
+        "Address regulatory considerations",
+        "Address regulatory considerations"
+      ],
+      "methodology": "Integrated traditional actuarial tables with alternative data sources using GLMs.",
+      "toolsUsed": ["shehe", "Python", "GLM", "Data Integration"],
+      "findings": "Enhanced models improved pricing accuracy by 12% while maintaining regulatory compliance.",
+      "deliverables": [
+        { "type": "report", "url": "/downloads/projects/proj-006-report.pdf" },
+        { "type": "presentation", "url": "/downloads/projects/Bike Sales Dashboard.xlsx" }
+      ],
+      "thumbnail": "/images/projects/fun retreat 2.png"
     }
   ]
 }

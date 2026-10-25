@@ -3,10 +3,10 @@
     {
       "courseId": "AS101",
       "courseCode": "AS 101",
-      "courseName": "Introduction to Actuarial Science",
+      "courseName": "Introduction to Actuarial Sciences by shehe",
       "level": 1,
       "semester": 1,
-      "lecturer": "Dr. Jane Doe",
+      "lecturer": "Dr. shehe",
       "resources": [
         {
           "id": "as101-res-001",
@@ -66,7 +66,7 @@
       "courseName": "Financial Mathematics I",
       "level": 1,
       "semester": 1,
-      "lecturer": "Prof. Michael Smith",
+      "lecturer": "Prof. shehe",
       "resources": [
         {
           "id": "as102-res-001",

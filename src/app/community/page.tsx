@@ -4,14 +4,14 @@ import { Users, UserCheck, Award, Handshake, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Community',
-  description: 'Meet the people, achievements, and partnerships behind ASAUD.',
+  description: 'Meet the people, achievements, and partnerships behind ASSAUD.',
 };
 
 const sections = [
   {
     icon: Users,
     title: 'Leadership',
-    description: 'Meet the current executive team leading ASAUD.',
+    description: 'Meet the current executive team leading ASSAUD.',
     href: '/community/leadership',
     color: 'from-red-500 to-red-700',
     bg: 'bg-red-50',

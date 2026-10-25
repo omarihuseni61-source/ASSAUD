@@ -1,8 +1,8 @@
 {
   "datasets": [
     {
-      "id": "mortality-tanzania-2023",
-      "name": "Tanzania Mortality Data 2023",
+      "id": "mortality-tanzania-2027",
+      "name": "Tanzania Mortality Data 2027",
       "category": "mortality",
       "description": "Age-specific mortality rates for Tanzania covering all regions and demographics. Ideal for life insurance pricing and pension analysis.",
       "variables": [
@@ -25,8 +25,8 @@
       ]
     },
     {
-      "id": "insurance-claims-2023",
-      "name": "Motor Insurance Claims 2023",
+      "id": "insurance-claims-2027",
+      "name": "Motor Insurance Claims 2027",
       "category": "claims",
       "description": "Comprehensive motor insurance claims data for East Africa with severity and frequency information.",
       "variables": [
@@ -172,6 +172,30 @@
     {
       "id": "annuity-mortality-2023",
       "name": "Annuity Mortality Experience 2023",
+      "category": "mortality",
+      "description": "Mortality experience of annuity policyholders with detailed age-gender breakdown.",
+      "variables": [
+        { "name": "age", "type": "integer", "description": "Age at entry" },
+        { "name": "gender", "type": "string", "description": "Gender" },
+        { "name": "exposure", "type": "decimal", "description": "Exposure years" },
+        { "name": "deaths", "type": "integer", "description": "Number of deaths" }
+      ],
+      "source": "Pension Fund Partners",
+      "format": "csv",
+      "fileSize": "780 KB",
+      "records": "15,000",
+      "downloadUrl": "/documents/Bike Sales Dashboard.xlsx",
+      "usageExample": "Analyze annuity mortality experience and build pricing models",
+      "applications": [
+        "Annuity pricing",
+        "Longevity analysis",
+        "Reserve calculation",
+        "Pension valuation"
+      ]
+    },
+    {
+      "id": "annuity-mortality-2030",
+      "name": "Mortality Experience 2030",
       "category": "mortality",
       "description": "Mortality experience of annuity policyholders with detailed age-gender breakdown.",
       "variables": [

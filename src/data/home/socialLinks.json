@@ -1,16 +1,16 @@
 {
   "social": [
     {
-      "platform": "Facebook",
+      "platform": "TikTok",
       "handle": "@ASAUD-UDSM",
       "url": "https://facebook.com/asaud.udsm",
-      "icon": "facebook"
+      "icon": "tiktok"
     },
     {
-      "platform": "Twitter",
+      "platform": "Youtube",
       "handle": "@ASAUD_UDSM",
       "url": "https://twitter.com/asaud_udsm",
-      "icon": "twitter"
+      "icon": "youtube"
     },
     {
       "platform": "LinkedIn",

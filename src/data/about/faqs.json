@@ -7,8 +7,8 @@
       "faqs": [
         {
           "id": "faq-001",
-          "question": "Who can join ASAUD?",
-          "answer": "Any student currently enrolled in the Actuarial Science programme at UDSM can join ASAUD as a full member. Students from related fields such as Mathematics, Statistics, or Computer Science may join as associate members.",
+          "question": "Who can join ASSAUD?",
+          "answer": "Any student currently enrolled in the Actuarial Science programme at UDSM can join ASSAUD as a full member. Students from related fields such as Mathematics, Statistics, or Computer Science may join as associate members.",
           "relatedLinks": [
             { "label": "Learn about Membership", "href": "/community/membership" }
           ]
@@ -16,7 +16,7 @@
         {
           "id": "faq-002",
           "question": "What are the membership fees?",
-          "answer": "ASAUD offers free membership for all actuarial science students. There are no mandatory fees. Optional donations support special projects, events, and resources for members.",
+          "answer": "ASSAUD membership requires a registration fee of TZS 10,000, payable at the beginning of each semester. The contribution supports the association's projects, events, and activities aimed at enhancing students' academic and professional development.",
           "relatedLinks": []
         },
         {
@@ -30,7 +30,7 @@
         {
           "id": "faq-004",
           "question": "Can I join if I'm not in Actuarial Science?",
-          "answer": "Yes! Students from related disciplines (Mathematics, Statistics, Computer Science, Economics) can join as Associate Members. You'll have access to most resources and events.",
+          "answer": "ASSAUD membership is exclusively for students pursuing Actuarial Science at the University of Dar es Salaam. However, students from other disciplines are warmly welcome to participate in our events, activities, and collaborative initiatives, providing opportunities to learn, share ideas, and build connections.",
           "relatedLinks": [
             { "label": "View Membership Categories", "href": "/community/membership" }
           ]
@@ -61,7 +61,7 @@
         {
           "id": "faq-007",
           "question": "How can I contribute study materials?",
-          "answer": "If you have study materials to share (notes, solved problems, past papers), please contact the Academics Director at academics@asaud.udsm.ac.tz. All contributions are reviewed before publication.",
+          "answer": "If you have study materials to share (notes, solved problems, past papers), please contact the Head of Academics at ellycee05@gmail.com. All contributions are reviewed before publication.",
           "relatedLinks": [
             { "label": "Contact Academics Team", "href": "/about/contact" }
           ]
@@ -91,8 +91,8 @@
         },
         {
           "id": "faq-010",
-          "question": "Does ASAUD help with internships?",
-          "answer": "Yes! ASAUD maintains partnerships with leading insurance companies and financial institutions. We share internship opportunities through our News & Events section and facilitate connections through our mentorship program.",
+          "question": "Does ASSAUD help with internships?",
+          "answer": "Yes! ASSAUD maintains partnerships with leading insurance companies and financial institutions. We share internship opportunities through our News & Events section and facilitate connections through our mentorship program.",
           "relatedLinks": [
             { "label": "See Latest Opportunities", "href": "/news-events/news" }
           ]
@@ -115,13 +115,13 @@
         {
           "id": "faq-012",
           "question": "Are events free for members?",
-          "answer": "Most ASAUD events are free for members. Some specialized workshops or conferences may have a small fee to cover costs. Details are always listed on the event page.",
+          "answer": "Most ASSAUD events are free for members. Some specialized workshops or conferences may have a small fee to cover costs. Details are always listed on the event page.",
           "relatedLinks": []
         },
         {
           "id": "faq-013",
           "question": "Can I propose an event or workshop?",
-          "answer": "Absolutely! We welcome event proposals from members. Contact the Events Director at events@asaud.udsm.ac.tz with your idea, and we'll help you organize it.",
+          "answer": "Absolutely! We welcome event proposals from members. Contact the Head of Events at kawisheerick@gmail.com with your idea, and we'll help you organize it.",
           "relatedLinks": [
             { "label": "Contact Events Team", "href": "/about/contact" }
           ]
@@ -135,16 +135,16 @@
       "faqs": [
         {
           "id": "faq-014",
-          "question": "How can I contact ASAUD?",
-          "answer": "You can reach us via email at asaud@udsm.ac.tz, through our social media channels, or by visiting our office at the University of Dar es Salaam main campus.",
+          "question": "How can I contact ASSAUD?",
+          "answer": "You can reach us via email at assaud17@gmail.com, through our social media channels, or by visiting our office at the University of Dar es Salaam main campus.",
           "relatedLinks": [
             { "label": "Full Contact Information", "href": "/about/contact" }
           ]
         },
         {
           "id": "faq-015",
-          "question": "How can my company partner with ASAUD?",
-          "answer": "We welcome partnerships with organizations that share our commitment to developing actuarial talent. Contact us at partnerships@asaud.udsm.ac.tz to discuss collaboration opportunities.",
+          "question": "How can my company partner with ASSAUD?",
+          "answer": "We welcome partnerships with organizations that share our commitment to developing actuarial talent. Contact us at assaud17@gmail.com to discuss collaboration opportunities.",
           "relatedLinks": [
             { "label": "See Our Partners", "href": "/community/partners" }
           ]

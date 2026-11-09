@@ -8,7 +8,7 @@ const historyData = historyDataRaw as History;
 
 export const metadata: Metadata = {
   title: 'Our History',
-  description: 'The story of ASAUD - from 15 founding members in 2015 to over 500 today.',
+  description: 'The story of ASSAUD - from 15 founding members in 2012 to over 500 today.',
 };
 
 export default function HistoryPage() {
@@ -16,7 +16,7 @@ export default function HistoryPage() {
     <>
       <PageHeader
         badge="Our Journey"
-        title="The History of ASAUD"
+        title="The History of ASSAUD"
         description={historyData.background}
         breadcrumbs={[
           { label: 'Home', href: '/' },

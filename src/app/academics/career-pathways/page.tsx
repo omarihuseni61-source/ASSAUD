@@ -26,7 +26,7 @@ export default function CareerPathwaysPage() {
       <PageHeader
         badge="Career Development"
         title="Your Path to Becoming an Actuary"
-        description="From university studies to professional designation — everything you need to know about building a career in actuarial science."
+        description="Explore the pathway from university studies to professional recognition. Discover the key stages, including academic development, professional examinations, practical experience, and qualification, that shape your journey towards becoming a professional actuary."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Academics', href: '/academics' },
@@ -238,7 +238,7 @@ export default function CareerPathwaysPage() {
               href="/community/membership"
               className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 backdrop-blur-sm border border-white/30 text-white font-semibold rounded-xl hover:bg-white/20 transition-all"
             >
-              Join ASAUD
+              Join ASSAUD
             </Link>
           </div>
         </div>

@@ -56,7 +56,7 @@ export function QuickAccess() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="inline-block px-4 py-1.5 bg-red-100 text-red-700 text-sm font-semibold rounded-full mb-4">
-            Explore ASAUD
+            Explore ASSAUD
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Everything You Need in One Place

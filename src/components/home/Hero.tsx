@@ -69,7 +69,7 @@ export function Hero() {
             <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-8 shadow-2xl">
               <h3 className="text-white font-semibold text-lg mb-6 flex items-center gap-2">
                 <span className="w-1 h-6 bg-red-400 rounded-full" />
-                ASAUD at a Glance
+                ASSAUD at a Glance
               </h3>
               <div className="grid grid-cols-2 gap-6">
                 {data.stats.map((stat, index) => (

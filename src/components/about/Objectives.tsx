@@ -17,7 +17,7 @@ export function Objectives({ objectives }: ObjectivesProps) {
             What We Aim to Achieve
           </h2>
           <p className="text-lg text-gray-600">
-            Six core objectives that guide everything we do at ASAUD.
+            Six core objectives that guide everything we do at ASSAUD.
           </p>
         </div>
 

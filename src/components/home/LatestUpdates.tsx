@@ -42,7 +42,7 @@ export function LatestUpdates() {
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Stay informed with the latest announcements, academic updates,
-              and opportunities from ASAUD.
+              and opportunities from ASSAUD.
             </p>
             <Link
               href="/news-events/news"

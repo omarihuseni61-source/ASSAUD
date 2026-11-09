@@ -17,7 +17,7 @@ const program = programDataRaw as ProgramInfo;
 export const metadata: Metadata = {
   title: 'Actuarial Science at UDSM',
   description:
-    'Explore the 4-year BSc. Actuarial Science programme at the University of Dar es Salaam.',
+    'Explore the 3-year BSc. Actuarial Science programme at the University of Dar es Salaam.',
 };
 
 export default function ActuarialSciencePage() {
@@ -72,7 +72,7 @@ export default function ActuarialSciencePage() {
               Programme Structure
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Your 4-Year Journey
+              Your 3-Year Journey
             </h2>
             <p className="text-lg text-gray-600">
               A structured progression from foundations to advanced actuarial

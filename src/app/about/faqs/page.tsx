@@ -26,7 +26,7 @@ export default function FAQsPage() {
       <PageHeader
         badge="Help Center"
         title="Frequently Asked Questions"
-        description="Find quick answers to the most common questions about ASAUD, membership, academics, and more."
+        description="Find quick answers to the most common questions about ASSAUD, membership, academics, and more."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'About', href: '/about' },

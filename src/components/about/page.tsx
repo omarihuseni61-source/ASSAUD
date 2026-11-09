@@ -12,13 +12,13 @@ import {
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn about ASAUD - our identity, history, governance, and how to get in touch.',
+    'Learn about ASSAUD - our identity, history, governance, and how to get in touch.',
 };
 
 const sections = [
   {
     icon: Info,
-    title: 'About ASAUD',
+    title: 'About ASSAUD',
     description:
       'Discover our identity, vision, mission, objectives, and core values.',
     href: '/about/about-asaud',
@@ -30,7 +30,7 @@ const sections = [
     icon: History,
     title: 'Our History',
     description:
-      'From 15 founders in 2015 to 500+ members — see our journey and achievements.',
+      'From 15 founders in 2012 to 500+ members — see our journey and achievements.',
     href: '/about/history',
     color: 'from-purple-500 to-purple-700',
     bg: 'bg-purple-50',
@@ -78,7 +78,7 @@ export default function AboutPage() {
             About Us
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl">
-            About ASAUD
+            About ASSAUD
           </h1>
           <p className="text-lg md:text-xl text-red-100 max-w-3xl leading-relaxed">
             Learn about the Actuarial Science Association at the University of

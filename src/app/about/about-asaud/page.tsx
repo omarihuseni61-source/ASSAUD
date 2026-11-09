@@ -10,9 +10,9 @@ import type { AboutASAUD } from '@/types/about';
 const aboutData = aboutDataRaw as AboutASAUD;
 
 export const metadata: Metadata = {
-  title: 'About ASAUD',
+  title: 'About ASSAUD',
   description:
-    'Learn about ASAUD\'s identity, vision, mission, objectives, core values, and membership scope.',
+    'Learn about ASSAUD\'s identity, vision, mission, objectives, core values, and membership scope.',
 };
 
 export default function AboutASAUDPage() {
@@ -25,7 +25,7 @@ export default function AboutASAUDPage() {
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'About', href: '/about' },
-          { label: 'About ASAUD', href: '/about/about-asaud' },
+          { label: 'About ASSAUD', href: '/about/about-asaud' },
         ]}
       />
 

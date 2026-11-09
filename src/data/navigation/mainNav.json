@@ -12,7 +12,7 @@
       "href": "/about/about-asaud",
       "icon": "info",
       "subItems": [
-        { "label": "About ASAUD", "href": "/about/about-asaud" },
+        { "label": "About ASSAUD", "href": "/about/about-asaud" },
         { "label": "History", "href": "/about/history" },
         { "label": "Constitution", "href": "/about/constitution" },
         { "label": "FAQs", "href": "/about/faqs" },

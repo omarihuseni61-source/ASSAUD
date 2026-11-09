@@ -61,13 +61,13 @@
       "endDate": "2026-11-05T13:00:00",
       "venue": "UDSM Business School Auditorium",
       "type": "seminar",
-      "description": "Launch event for the 2026-2027 ASAUD Mentorship Program. Meet your assigned mentor and begin your professional development journey.",
+      "description": "Launch event for the 2026-2027 ASSAUD Mentorship Program. Meet your assigned mentor and begin your professional development journey.",
       "theme": "Bridging Academia and Industry",
       "speakers": [
         {
           "name": "Grace Mushi",
-          "title": "Partnerships Director, ASAUD",
-          "bio": "Coordinator of the ASAUD mentorship program.",
+          "title": "Partnerships Director, ASSAUD",
+          "bio": "Coordinator of the ASsAUD mentorship program.",
           "photo": "/images/events/hero-bg.jpg"
         },
         {
@@ -96,7 +96,7 @@
       "speakers": [
         {
           "name": "Frank Nyerere",
-          "title": "Data Scientist, ASAUD Alumni",
+          "title": "Data Scientist, ASSAUD Alumni",
           "bio": "Specializes in ML applications for insurance.",
           "photo": "/images/events/hero-bg.jpg"
         }

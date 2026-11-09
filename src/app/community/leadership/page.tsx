@@ -21,7 +21,7 @@ export default function LeadershipPage() {
     <>
       <PageHeader
         badge="Executive Team"
-        title="ASAUD Leadership"
+        title="ASSAUD Leadership"
         description={`Meet the dedicated student leaders serving the association for the ${leadershipData.currentTerm} term.`}
         breadcrumbs={[
           { label: 'Home', href: '/' },

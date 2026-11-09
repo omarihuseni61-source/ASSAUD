@@ -1,18 +1,20 @@
 {
   "identity": {
-    "name": "Actuarial Science Association",
-    "acronym": "ASAUD",
+    "name": "Actuarial Science Students' Association of University of Dar es Salaam",
+    "acronym": "ASSAUD",
     "tagline": "Shaping the Future of Actuarial Science",
-    "established": "2015"
+    "established": "2012"
   },
   "relationship": {
     "university": "University of Dar es Salaam",
-    "faculty": "Faculty of Science - Department of Mathematics",
-    "establishmentDate": "2015"
+    "faculty": "College of Natural and Applied Science - Department of Mathematics",
+    "establishmentDate": "2012"
   },
-  "overview": "The Actuarial Science Association of the University of Dar es Salaam (ASAUD) is a student-led organization dedicated to supporting students pursuing actuarial science. We bridge the gap between academic learning and professional practice through resources, mentorship, and industry connections.",
-  "vision": "To be a leading student association that advances actuarial science education and professional development in East Africa.",
-  "mission": "To support actuarial science students through academic resources, professional guidance, and community engagement while promoting excellence in the field.",
+  "overview": "The Actuarial Science Students' Association of the University of Dar es Salaam (ASSAUD) is a student-led organization dedicated to supporting students pursuing actuarial science. We bridge the gap between academic learning and professional practice through resources, mentorship, and industry connections.",
+  "vision": "To be honored as the excellent students' society in moulding upcoming actuaries.",
+  "mission": "To create a platform on opportunities for actuarial science in Tanzania.",
+  "slogan": "Creating actuarial aspirants.",
+  "Motto": "Turning risk into gold.",
   "objectives": [
     {
       "title": "Academic Excellence",
@@ -79,7 +81,7 @@
   ],
   "membershipScope": {
     "title": "Who Can Join",
-    "description": "ASAUD membership is open to all students currently enrolled in the Actuarial Science programme at the University of Dar es Salaam.",
+    "description": "ASSAUD membership is open to all students currently enrolled in the Actuarial Science programme at the University of Dar es Salaam.",
     "categories": [
       {
         "name": "Full Members",
@@ -93,7 +95,7 @@
       },
       {
         "name": "Alumni Members",
-        "description": "Graduates of the Actuarial Science programme at UDSM.",
+        "description": " Graduates of the Actuarial Science programme at UDSM.",
         "eligibility": "Completed the Actuarial Science degree at UDSM"
       }
     ]

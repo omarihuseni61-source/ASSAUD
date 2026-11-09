@@ -15,7 +15,7 @@ const contactData = contactDataRaw as ContactInfo;
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with ASAUD - email, phone, office location, and department contacts.',
+  description: 'Get in touch with ASSAUD - email, phone, office location, and department contacts.',
 };
 
 export default function ContactPage() {
@@ -23,8 +23,8 @@ export default function ContactPage() {
     <>
       <PageHeader
         badge="Get in Touch"
-        title="Contact ASAUD"
-        description="We'd love to hear from you. Reach out through any of the channels below, or find the right department for your enquiry."
+        title="Contact ASSAUD"
+        description="Have questions, ideas, or want to collaborate with us? We'd love to hear from you. Reach out anytime!"
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'About', href: '/about' },

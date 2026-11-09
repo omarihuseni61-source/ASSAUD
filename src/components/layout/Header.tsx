@@ -138,7 +138,7 @@ export function Header() {
               href="/community/membership"
               className="px-5 py-2.5 bg-gradient-to-r from-red-800 to-red-900 text-white text-sm font-semibold rounded-lg hover:from-red-900 hover:to-red-950 transition-all shadow-md hover:shadow-lg"
             >
-              Join ASAUD
+              Join ASSAUD
             </Link>
           </div>
 
@@ -263,7 +263,7 @@ export function Header() {
               }}
               className="block mt-4 px-4 py-3 bg-gradient-to-r from-red-800 to-red-900 text-white text-center text-sm font-semibold rounded-lg hover:from-red-900 hover:to-red-950 transition-all"
             >
-              Join ASAUD
+              Join ASSAUD
             </Link>
           </nav>
         </div>

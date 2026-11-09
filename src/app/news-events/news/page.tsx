@@ -54,7 +54,7 @@ export default function NewsPage() {
       <PageHeader
         badge="Latest Updates"
         title="News & Opportunities"
-        description="Stay informed with announcements, internships, scholarships, and achievements from ASAUD."
+        description="Stay informed with announcements, internships, scholarships, and achievements from ASSAUD."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'News & Events', href: '/news-events' },

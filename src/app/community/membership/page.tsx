@@ -16,7 +16,7 @@ const membershipData = membershipDataRaw as MembershipData;
 
 export const metadata: Metadata = {
   title: 'Membership',
-  description: 'Join ASAUD and unlock study materials, events, mentorship, and more.',
+  description: 'Join ASSAUD and unlock study materials, events, mentorship, and more.',
 };
 
 export default function MembershipPage() {
@@ -31,7 +31,7 @@ export default function MembershipPage() {
     <>
       <PageHeader
         badge="Join Us"
-        title="ASAUD Membership"
+        title="ASSAUD Membership"
         description={membershipData.overview}
         breadcrumbs={[
           { label: 'Home', href: '/' },
@@ -70,7 +70,7 @@ export default function MembershipPage() {
               Member Benefits
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Join ASAUD?
+              Why Join ASSAUD?
             </h2>
             <p className="text-lg text-gray-600">
               Six powerful benefits that accelerate your academic and professional growth.

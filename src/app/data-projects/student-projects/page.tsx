@@ -48,7 +48,7 @@ export default function StudentProjectsPage() {
       <PageHeader
         badge="Innovation Showcase"
         title="Student Projects"
-        description="Discover innovative actuarial projects developed by ASAUD students — complete with reports, presentations, and code."
+        description="Discover innovative actuarial projects developed by ASSAUD students — complete with reports, presentations, and code."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Data & Projects', href: '/data-projects' },

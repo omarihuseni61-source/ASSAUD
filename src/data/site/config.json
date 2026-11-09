@@ -1,5 +1,5 @@
 {
-  "siteName": "ASAUD",
+  "siteName": "ASSAUD",
   "fullName": "Actuarial Science Association - University of Dar es Salaam",
   "tagline": "Shaping the Future of Actuarial Science",
   "description": "Empowering actuarial science students through knowledge, career guidance, and professional development",
@@ -7,13 +7,13 @@
   "logo": "",
   "favicon": "",
   "language": "en",
-  "contactEmail": "asaud@udsm.ac.tz",
-  "phone": "+255-22-2410138",
+  "contactEmail": "assaud17@gmail.com",
+  "phone": "+255-77-4362849",
   "socialLinks": {
     "facebook": "https://facebook.com/asaud.udsm",
     "twitter": "https://twitter.com/asaud_udsm",
     "linkedin": "https://linkedin.com/company/asaud-udsm",
-    "instagram": "https://instagram.com/asaud_udsm",
+    "instagram": "https://instagram.com/actuaries_udsm",
     "youtube": "https://youtube.com/@asaud-udsm"
   }
 }

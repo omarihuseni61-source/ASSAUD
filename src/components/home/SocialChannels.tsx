@@ -15,7 +15,7 @@ export function SocialChannels() {
             Connect With Us
           </h2>
           <p className="text-gray-300 text-lg">
-            Follow ASAUD on our official channels for the latest updates,
+            Follow ASSAUD on our official channels for the latest updates,
             events, and opportunities.
           </p>
         </div>

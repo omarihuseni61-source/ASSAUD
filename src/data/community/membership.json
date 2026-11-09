@@ -1,5 +1,5 @@
 {
-  "overview": "ASSAUD membership is open to all Actuarial science students at the University of Dar es Salaam. Membership gives you access to study materials, events, mentorship, and a supportive community.",
+  "overview": "ASSAUD membership is exclusively open to Actuarial Science students at the University of Dar es Salaam, with a semester registration fee of TZS 10,000. However, students from other disciplines are warmly welcome to participate in our events, activities, and collaborative initiatives, creating opportunities to learn, network, and share ideas.",
   "benefits": [
     {
       "title": "Study Materials",
@@ -28,41 +28,23 @@
     },
     {
       "title": "Recognition",
-      "description": "Eligibility for ASAUD awards, scholarships, and recognition programs.",
+      "description": "Eligibility for ASSAUD awards, scholarships, and recognition programs.",
       "icon": "award"
     }
   ],
   "categories": [
     {
       "name": "Full Members",
-      "price": "Free",
+      "price": "TZS 10,000 Per semester",
       "description": "For students currently enrolled in the Actuarial Science programme at UDSM.",
       "eligibility": [
-        "Currently registered in Actuarial Science programme",
-        "Valid UDSM student ID",
-        "Good academic standing"
+        "Currently registered in Actuarial Science programme"
       ],
       "benefits": [
-        "All study materials",
-        "Full event access",
-        "Voting rights in elections",
-        "Eligible for ASAUD awards"
-      ]
-    },
-    {
-      "name": "Associate Members",
-      "price": "Free",
-      "description": "For students from related fields (Mathematics, Statistics, Computer Science, Economics).",
-      "eligibility": [
-        "Enrolled in related programme",
-        "Interest in actuarial science",
-        "Valid UDSM student ID"
-      ],
-      "benefits": [
-        "Access to study materials",
-        "Event participation",
-        "Community access",
-        "Professional development resources"
+        "Access to academic resources and study materials",
+        "Priority access to ASSAUD events and programmes",
+        "Voting rights in Executive Committee elections",
+        "Eligibility for ASSAUD awards and recognition"
       ]
     },
     {
@@ -70,14 +52,13 @@
       "price": "Free",
       "description": "For graduates of the Actuarial Science programme at UDSM.",
       "eligibility": [
-        "Completed degree at UDSM",
-        "Good standing upon graduation"
+        "Completed Actuarial Science degree at UDSM"
       ],
       "benefits": [
-        "Networking opportunities",
-        "Mentorship role eligibility",
-        "Alumni events",
-        "Industry updates"
+        "Professional networking and career connections",
+        "Opportunities to mentor current ASSAUD students",
+        "Access to alumni reunions and networking events",
+        "Industry insights and career updates"
       ]
     }
   ],
@@ -108,9 +89,9 @@
     }
   ],
   "statistics": {
-    "totalMembers": "500+",
-    "activeMembers": "450+",
-    "graduatedMembers": "150+",
+    "totalMembers": "480+",
+    "activeMembers": "130+",
+    "graduatedMembers": "350+",
     "partners": "10+"
   },
   "registrationUrl": "https://forms.google.com/register-asaud"

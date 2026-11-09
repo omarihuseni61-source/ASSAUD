@@ -62,7 +62,7 @@ export default function StudyMaterialsPage() {
       <PageHeader
         badge="Study Materials"
         title="Your Complete Resource Library"
-        description="Access lecture slides, tutorials, past papers, and quizzes for every Actuarial Science course."
+        description="Everything you need to excel in your studies! Explore lecture notes, tutorials, past papers, and quizzes across all Actuarial Science courses."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Academics', href: '/academics' },
@@ -103,7 +103,6 @@ export default function StudyMaterialsPage() {
                   <option value={1}>Year 1</option>
                   <option value={2}>Year 2</option>
                   <option value={3}>Year 3</option>
-                  <option value={4}>Year 4</option>
                 </select>
               </div>
 

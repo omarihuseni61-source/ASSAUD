@@ -10,7 +10,7 @@ const constitution = constitutionDataRaw as Constitution;
 export const metadata: Metadata = {
   title: 'Constitution',
   description:
-    'The official constitution of ASAUD - governance, membership, and operations.',
+    'The official constitution of ASSAUD - governance, membership, and operations.',
 };
 
 export default function ConstitutionPage() {
@@ -18,7 +18,7 @@ export default function ConstitutionPage() {
     <>
       <PageHeader
         badge="Governance"
-        title="ASAUD Constitution"
+        title="ASSAUD Constitution"
         description={constitution.description}
         breadcrumbs={[
           { label: 'Home', href: '/' },

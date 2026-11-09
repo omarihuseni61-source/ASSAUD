@@ -48,7 +48,7 @@ export default function AwardsPage() {
       <PageHeader
         badge="Recognition"
         title="Awards & Recognition"
-        description="Celebrating outstanding achievements of ASAUD members and alumni."
+        description="Celebrating outstanding achievements of ASSAUD members and alumni."
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Community', href: '/community' },

@@ -1,13 +1,16 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import footerDataRaw from '@/data/navigation/footerLinks.json';
 import siteConfigRaw from '@/data/site/config.json';
+import socialDataRaw from '@/data/home/socialLinks.json';
 import { socialIcons } from '@/components/common/SocialIcons';
-import type { FooterSection, SiteConfig } from '@/types/common';
+import type { FooterSection, SiteConfig, SocialLink } from '@/types/common';
 
 
 const footerData = footerDataRaw as { sections: FooterSection[] };
 const siteConfig = siteConfigRaw as SiteConfig;
+const socialData = socialDataRaw as { social: SocialLink[] };
 
 export function Footer() {
   const sections = footerData.sections;
@@ -20,8 +23,14 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white font-bold text-xl">
-                A
+              <div className="bg-white rounded-lg p-1.5">
+                <Image
+                  src="/images/assaudlogo.jpg"
+                  alt="ASSAUD logo"
+                  width={564}
+                  height={421}
+                  className="h-12 w-auto"
+                />
               </div>
               <div>
                 <div className="font-bold text-xl text-white leading-none">
@@ -60,24 +69,22 @@ export function Footer() {
 
             {/* Social Icons */}
             <div className="flex items-center gap-3 mt-6">
-              {(Object.entries(siteConfig.socialLinks) as [string, string][]).map(
-                ([platform, url]) => {
-                  const Icon = socialIcons[platform];
-                  if (!Icon) return null;
-                  return (
-                    <a
-                      key={platform}
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={platform}
-                      className="w-9 h-9 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors"
-                    >
-                      <Icon className="w-4 h-4" />
-                    </a>
-                  );
-                }
-              )}
+              {socialData.social.map((social) => {
+                const Icon = socialIcons[social.icon];
+                if (!Icon) return null;
+                return (
+                  <a
+                    key={social.platform}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.platform}
+                    className="w-9 h-9 rounded-lg bg-gray-800 hover:bg-red-600 flex items-center justify-center transition-colors"
+                  >
+                    <Icon className="w-4 h-4" />
+                  </a>
+                );
+              })}
             </div>
           </div>
 

@@ -42,6 +42,8 @@ export interface AboutASAUD {
   overview: string;
   vision: string;
   mission: string;
+  motto: string;
+  slogan: string;
   objectives: Objective[];
   coreValues: CoreValue[];
   membershipScope: MembershipScope;

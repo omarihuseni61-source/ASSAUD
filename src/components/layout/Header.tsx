@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -67,9 +68,14 @@ export function Header() {
               setOpenDropdown(null);
             }}
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-red-700 to-red-900 flex items-center justify-center text-white font-bold text-lg shadow-md group-hover:scale-105 transition-transform">
-              A
-            </div>
+            <Image
+              src="/images/assaudlogo.jpg"
+              alt="ASSAUD logo"
+              width={564}
+              height={421}
+              priority
+              className="h-10 w-auto group-hover:scale-105 transition-transform"
+            />
             <div className="hidden sm:block">
               <div className="font-bold text-lg text-gray-900 leading-none">
                 {siteConfig.siteName}

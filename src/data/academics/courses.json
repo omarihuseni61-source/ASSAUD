@@ -143,42 +143,6 @@
         "Validate and document models"
       ],
       "assessmentMethod": "Project (50%), Exam (40%), Participation (10%)"
-    },
-    {
-      "id": "AS401",
-      "code": "AS 401",
-      "name": "Advanced Actuarial Practice",
-      "level": 4,
-      "semester": 1,
-      "credits": 4,
-      "lecturer": "Dr. Jane Doe",
-      "email": "jane.doe@udsm.ac.tz",
-      "description": "Capstone course applying actuarial techniques to real-world insurance and financial problems.",
-      "objectives": [
-        "Apply advanced actuarial techniques",
-        "Solve complex business problems",
-        "Present findings professionally",
-        "Demonstrate professional judgment"
-      ],
-      "assessmentMethod": "Exam (50%), Case Studies (40%), Presentation (10%)"
-    },
-    {
-      "id": "AS402",
-      "code": "AS 402",
-      "name": "Enterprise Risk Management",
-      "level": 4,
-      "semester": 1,
-      "credits": 3,
-      "lecturer": "Dr. Robert Kimani",
-      "email": "robert.kimani@udsm.ac.tz",
-      "description": "Comprehensive study of enterprise risk management frameworks and practices.",
-      "objectives": [
-        "Understand ERM frameworks",
-        "Identify and assess risks",
-        "Develop risk mitigation strategies",
-        "Apply ERM in financial institutions"
-      ],
-      "assessmentMethod": "Exam (60%), Project (40%)"
     }
   ]
 }

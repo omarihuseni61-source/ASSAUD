@@ -14,7 +14,7 @@
   "vision": "To be honored as the excellent students' society in moulding upcoming actuaries.",
   "mission": "To create a platform on opportunities for actuarial science in Tanzania.",
   "slogan": "Creating actuarial aspirants.",
-  "Motto": "Turning risk into gold.",
+  "motto": "Turning risk into gold.",
   "objectives": [
     {
       "title": "Academic Excellence",
@@ -87,11 +87,6 @@
         "name": "Full Members",
         "description": "Actively enrolled Actuarial Science students at UDSM.",
         "eligibility": "Currently registered in the Actuarial Science programme"
-      },
-      {
-        "name": "Associate Members",
-        "description": "Students from related fields (Mathematics, Statistics, Computer Science).",
-        "eligibility": "Enrolled in related programmes with interest in actuarial science"
       },
       {
         "name": "Alumni Members",

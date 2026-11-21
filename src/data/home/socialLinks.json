@@ -3,26 +3,32 @@
     {
       "platform": "TikTok",
       "handle": "@ASAUD-UDSM",
-      "url": "https://facebook.com/asaud.udsm",
+      "url": "https://www.tiktok.com/@actuaries_udsm",
       "icon": "tiktok"
     },
     {
       "platform": "Youtube",
       "handle": "@ASAUD_UDSM",
-      "url": "https://twitter.com/asaud_udsm",
+      "url": "https://www.youtube.com/channel/UCmaY0eVU4sjfFSBYqpbeuyQ",
       "icon": "youtube"
     },
     {
       "platform": "LinkedIn",
       "handle": "ASAUD-UDSM",
-      "url": "https://linkedin.com/company/asaud-udsm",
+      "url": "https://www.linkedin.com/company/actuarial-science-students-association-of-university-of-dar-es-salaam/",
       "icon": "linkedin"
     },
     {
       "platform": "Instagram",
       "handle": "@asaud_udsm",
-      "url": "https://instagram.com/asaud_udsm",
+      "url": "https://www.instagram.com/actuaries_udsm",
       "icon": "instagram"
+    },
+    {
+      "platform": "WhatsApp Channel",
+      "handle": "ASSAUD",
+      "url": "https://whatsapp.com/channel/0029Vb5uvGPGU3BDXS24DJ3x",
+      "icon": "whatsapp"
     }
   ]
 }

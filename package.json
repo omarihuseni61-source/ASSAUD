@@ -13,6 +13,7 @@
     "date-fns": "^4.4.0",
     "lucide-react": "^1.47.0",
     "next": "16.3.5",
+    "next-google-translate": "^1.0.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },

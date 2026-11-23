@@ -33,7 +33,7 @@ export function Footer() {
                 />
               </div>
               <div>
-                <div className="font-bold text-xl text-white leading-none">
+                <div className="font-bold text-xl text-white leading-none notranslate" translate="no">
                   {siteConfig.siteName}
                 </div>
                 <div className="text-xs text-gray-400 mt-1">

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { LanguageToggle } from '@/components/languageChanger/LanguageToggle';
 import navigationDataRaw from '@/data/navigation/mainNav.json';
 import siteConfigRaw from '@/data/site/config.json';
 import type { NavItem } from '@/types/common';
@@ -77,7 +78,7 @@ export function Header() {
               className="h-10 w-auto group-hover:scale-105 transition-transform"
             />
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-gray-900 leading-none">
+              <div className="font-bold text-lg text-gray-900 leading-none notranslate" translate="no">
                 {siteConfig.siteName}
               </div>
               <div className="text-xs text-gray-600 leading-none mt-1">
@@ -140,6 +141,7 @@ export function Header() {
 
           {/* ==================== DESKTOP CTA ==================== */}
           <div className="hidden lg:flex items-center gap-3">
+            <LanguageToggle />
             <Link
               href="/community/membership"
               className="px-5 py-2.5 bg-gradient-to-r from-red-800 to-red-900 text-white text-sm font-semibold rounded-lg hover:from-red-900 hover:to-red-950 transition-all shadow-md hover:shadow-lg"
@@ -149,7 +151,9 @@ export function Header() {
           </div>
 
           {/* ==================== MOBILE TOGGLE ==================== */}
-          <button
+          <div className="lg:hidden flex items-center gap-1">
+            <LanguageToggle isMobile />
+            <button
             type="button"
             onClick={() => setIsOpen((prev) => !prev)}
             className="lg:hidden p-2 rounded-lg hover:bg-red-50 active:bg-red-100 transition-colors"
@@ -163,6 +167,7 @@ export function Header() {
             )}
           </button>
         </div>
+      </div>
       </div>
 
       {/* ==================== MOBILE MENU ==================== */}

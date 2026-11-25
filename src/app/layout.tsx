@@ -1,7 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { GoogleTranslateProvider } from 'next-google-translate';
+import { GoogleTranslateProvider } from '@/lib/google-translate';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import siteConfig from '@/data/site/config.json';

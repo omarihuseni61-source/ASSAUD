@@ -2,7 +2,7 @@
 
 // components/layout/LanguageToggle.tsx
 import { useState } from 'react';
-import { useGoogleTranslate } from 'next-google-translate';
+import { useGoogleTranslate } from '@/lib/google-translate';
 
 interface LanguageToggleProps {
   isMobile?: boolean;

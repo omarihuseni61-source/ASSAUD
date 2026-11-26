@@ -25,19 +25,55 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Hide Google Translate native banner, iframe, and branding */
+/* ------------------------------------------------------------------ *
+ * Google Translate
+ *
+ * The widget injects its own banner iframe, tooltips and branding, and
+ * shifts <body> down by the height of that banner. We drive translation
+ * from our own control instead, so all of that chrome is suppressed here.
+ * ------------------------------------------------------------------ */
+
 .goog-te-banner-frame,
 .goog-te-balloon-frame,
 #goog-gt-tt,
 .goog-te-spinner-pos,
-.skiptranslate,
+.goog-te-gadget,
 .goog-logo-link,
-.goog-te-gadget {
+.goog-tooltip,
+.goog-tooltip:hover,
+iframe.skiptranslate {
   display: none !important;
 }
+
+/* The widget itself stays in the DOM (it needs to be live to work) but is
+   moved off-screen rather than display:none so its select keeps functioning. */
+#google_translate_element,
+.assaud-google-translate-mount,
 .goog-te-combo {
-  display: none !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
 }
+
+/* Google sets an inline top offset on <body> when its banner is active. */
 body {
   top: 0 !important;
+}
+html.translated-ltr body,
+html.translated-rtl body {
+  top: 0 !important;
+}
+
+/* Translated runs get wrapped in <font> tags with Google's own styling. */
+font {
+  background: transparent !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}
+.goog-text-highlight {
+  background: transparent !important;
+  box-shadow: none !important;
 }

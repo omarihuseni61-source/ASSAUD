@@ -38,10 +38,9 @@ const GoogleTranslateContext = createContext<GoogleTranslateContextValue | null>
  * drops its own UI when the script is slow or blocked.
  */
 export function GoogleTranslateProvider({ children }: { children: React.ReactNode }) {
-  const [state, setState] = useState<GoogleTranslateState>({
-    status: 'idle',
-    language: PAGE_LANGUAGE,
-  });
+  const [state, setState] = useState<GoogleTranslateState>(() =>
+    googleTranslateController.getState(),
+  );
   const pathname = usePathname();
 
   useEffect(() => {
@@ -50,7 +49,6 @@ export function GoogleTranslateProvider({ children }: { children: React.ReactNod
     patchDomForGoogleTranslate();
 
     const unsubscribe = googleTranslateController.subscribe(setState);
-    setState(googleTranslateController.getState());
     void googleTranslateController.init();
 
     return unsubscribe;

@@ -124,11 +124,7 @@ export function LanguageToggle({ isMobile = false }: LanguageToggleProps) {
                 Try again
               </button>
             </div>
-          ) : (
-            <p className="border-t border-gray-100 px-3 py-2 text-[11px] text-gray-400">
-              Machine translation by Google
-            </p>
-          )}
+          ) : null}
         </div>
       )}
     </div>
